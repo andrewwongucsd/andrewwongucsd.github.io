@@ -1,8 +1,11 @@
 git add .
 arg1=$1
-if [${#arg1} == 0]
-then
-  git commit -m $(date+"%T")
+zero=0
+echo $arg1
+echo `date +%Y-%m-%d`
+echo $(date +%F+%T)
+if [ -z "$1" ]; then
+  git commit -m `date +%Y-%m-%d`
 else
   git commit -m $1
 fi
