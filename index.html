@@ -5,16 +5,20 @@
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
 </head>
 <body ng-app="BlankApp" ng-cloak>
-  <md-toolbar class="md-warn">
-         <div class="md-toolbar-tools">
-            <h2 class="md-flex">HTML 5</h2>
-         </div>
-      </md-toolbar>
-      <md-content flex layout-padding>
-         <p>HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1. HTML5 is a standard for structuring and presenting content on the World Wide Web.</p>
-         <p>HTML5 is a cooperation between the World Wide Web Consortium (W3C) and the Web Hypertext Application Technology Working Group (WHATWG).</p>
-         <p>The new standard incorporates features like video playback and drag-and-drop that have been previously dependent on third-party browser plug-ins such as Adobe Flash, Microsoft Silverlight, and Google Gears.</p>
-      </md-content>
+  <div ng-controller="gridListDemoCtrl as vm" flex="" ng-cloak="" class="gridListdemoDynamicTiles" ng-app="MyApp">
+  <md-grid-list md-cols="1" md-cols-sm="2" md-cols-md="3" md-cols-gt-md="6" md-row-height-gt-md="1:1" md-row-height="4:3" md-gutter="8px" md-gutter-gt-sm="4px">
+
+    <md-grid-tile ng-repeat="tile in vm.tiles" md-rowspan="{{tile.span.row}}" md-colspan="{{tile.span.col}}" md-colspan-sm="1" md-colspan-xs="1" ng-class="tile.background">
+      <md-icon md-svg-icon="{{tile.icon}}"></md-icon>
+      <md-grid-tile-footer><h3>{{tile.title}}</h3></md-grid-tile-footer>
+    </md-grid-tile>
+  </md-grid-list>
+</div>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+-->
 
   <!-- Angular Material requires Angular.js Libraries -->
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
@@ -30,7 +34,68 @@
     /**
      * You must include the dependency on 'ngMaterial'
      */
-    angular.module('BlankApp', ['ngMaterial']);
+    // angular.module('BlankApp', ['ngMaterial']);
+
+angular
+  .module('BlankApp',['ngMaterial', 'ngMessages', 'material.svgAssetsCache'])
+  .controller('gridListDemoCtrl', function($scope) {
+
+    this.tiles = buildGridModel({
+            icon : "avatar:svg-",
+            title: "Svg-",
+            background: ""
+          });
+
+    function buildGridModel(tileTmpl){
+      var it, results = [ ];
+
+      for (var j=0; j<11; j++) {
+
+        it = angular.extend({},tileTmpl);
+        it.icon  = it.icon + (j+1);
+        it.title = it.title + (j+1);
+        it.span  = { row : 1, col : 1 };
+
+        switch(j+1) {
+          case 1:
+            it.background = "red";
+            it.span.row = it.span.col = 2;
+            break;
+
+          case 2: it.background = "green";         break;
+          case 3: it.background = "darkBlue";      break;
+          case 4:
+            it.background = "blue";
+            it.span.col = 2;
+            break;
+
+          case 5:
+            it.background = "yellow";
+            it.span.row = it.span.col = 2;
+            break;
+
+          case 6: it.background = "pink";          break;
+          case 7: it.background = "darkBlue";      break;
+          case 8: it.background = "purple";        break;
+          case 9: it.background = "deepBlue";      break;
+          case 10: it.background = "lightPurple";  break;
+          case 11: it.background = "yellow";       break;
+        }
+
+        results.push(it);
+      }
+      return results;
+    }
+  })
+  .config( function( $mdIconProvider ){
+    $mdIconProvider.iconSet("avatar", 'icons/avatar-icons.svg', 128);
+  });
+
+
+/**
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+**/
   </script>
 
 </body>
