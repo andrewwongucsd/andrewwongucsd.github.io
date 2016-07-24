@@ -4,9 +4,14 @@
   <!-- Angular Material style sheet -->
   <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
 </head>
-<body ng-app="BlankApp" ng-cloak>
+<body ng-app="phonecatApp" ng-cloak>
 
-  <p>Nothing here {{'yet' + '!'}}</p>
+  <ul>
+    <li ng-repeat="phone in phones">
+      <span>{{phone.name}}</span>
+      <p>{{phone.snippet}}</p>
+    </li>
+  </ul>
 
   <!-- Angular Material requires Angular.js Libraries -->
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
@@ -18,12 +23,12 @@
   <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
 
   <!-- Your application bootstrap  -->
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     /**
      * You must include the dependency on 'ngMaterial'
      */
     angular.module('BlankApp', ['ngMaterial']);
-  </script>
+  </script> -->
 
 </body>
 </html>
