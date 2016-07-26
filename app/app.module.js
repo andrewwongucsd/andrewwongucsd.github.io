@@ -2,9 +2,8 @@
 'use strict';
 
 // Define the `phonecatApp` module
-angular.module('phonecatApp', [
+angular.module('resumeApp', [
   'ngRoute',
-  'phoneDetail',
-  'phoneList',
+  'itemList',
   'ngMaterial'
 ]);

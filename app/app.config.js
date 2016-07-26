@@ -1,18 +1,17 @@
 'use strict';
 
 angular.
-  module('phonecatApp').
+  module('resumeApp').
   config(['$locationProvider' ,'$routeProvider',
     function config($locationProvider, $routeProvider) {
       // $locationProvider.hashPrefix('!');
-
       $routeProvider.
-        when('/phones', {
-          template: '<phone-list></phone-list>'
+        when('/resume', {
+          template: '<item-list></item-list>'
         }).
-        when('/phones/:phoneId', {
-          template: '<phone-detail></phone-detail>'
+        when('/projects/:projectId', {
+          template: '<project-detail></project-detail>'
         }).
-        otherwise('/phones');
+        otherwise('/resume');
     }
   ]);

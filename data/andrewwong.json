@@ -1,0 +1,65 @@
+{
+  profile: {name: "Andrew Wong",title: "Software Engineer"},
+  education:[
+    {
+      school : "University of California, San Diego",
+      image : "http://dwiens.ucsd.edu/img/logo/ucsd.jpg",
+      city: "La Jolla, California",
+      major: "B.S. in Computer Science",
+      date: "June 2011"
+    },{
+      school : "San Jose States University",
+      image : "https://pbs.twimg.com/profile_images/648550307941629952/IEcWKeia.png",
+      city: "San Jose, California",
+      major: "M.S. in Software Engineering",
+      date: "June 2017",
+      concentration: "Networking Software, Network Security, Network Application, Software Defined Network"
+    }
+  ],
+  connection:{
+    github: {
+      info: "andrewwongucsd.github.io",
+      image: "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png"
+    },
+    linkedin: {
+      info: "linkedin.com/in/andrewwongucsd",
+      image: "https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png"
+    },
+    email: {
+      image: "http://core0.staticworld.net/images/article/2015/12/gmail-icon-100633817-large.png",
+      info: "andrewwong@alumni.ucsd.edu"
+    },
+    phone: {
+      image: "https://openclipart.org/image/2400px/svg_to_png/399/molumen-phone-icon.png",
+      info: "+415 787 2881"
+    }
+  },projects:[
+    {
+      header: "Secure TCP Client-Server System",
+      description: "EKE (Encrypted Key Exchange) protocol. A file is securely transmitted from server to client only after authentication",
+      tool: "Python"
+    },{
+      header: "Facebook Page Publishing Automation",
+      description: "Making customized parser and Compiling them into array,and pushing to page.",
+      tool: "Javascript, Facebook Javascript SDK"
+    },{
+      header: "Webhook Scheduler",
+      description: "Offline HTTP Scheduler that retrieves and forwards calls to destinations until success or certain number of retry in Go.",
+      tool: "Goleng"
+    },{
+      header: "Facebook Page Publishing Automation",
+      description: "Making customized parser and Compiling them into array,and pushing to page.",
+      tool: "Javascript, Facebook Javascript SDK"
+    }
+  ],internships:[
+    {
+      company: "Accenture",
+      position: "Associate Software Engineer (Internship)",
+      duration: "April 2015 - October 2015",
+      place: "San Jose, CA",
+      description: ["Developed two interactive front-end prototypes based on W  2UI  and  AngularJS  framework with backend by  Google App Engine  in  Python .",
+        "BasicTraininginaseriesofBigDataAnalystCourse"],
+      technology: ["HTML", "Javascript (JQuery, AngularJS, W2UI)","CSS", "Python", "Cron Jobs", "Google App Engine"]
+    }
+  ]
+}
