@@ -1,6 +1,7 @@
 
-angular.module('resumeApp',['ngMaterial', 'ngMessages', 'material.svgAssetsCache'])
-.config(function($mdThemingProvider) {
+var resumeAppJs = angular.module('resumeApp',['ngMaterial', 'ngMessages', 'material.svgAssetsCache']);
+
+resumeAppJs.config(function($mdThemingProvider) {
   $mdThemingProvider.theme('dark-light-blue').backgroundPalette('light-blue').dark();
   $mdThemingProvider.theme('dark-orange').backgroundPalette('orange').dark();
   $mdThemingProvider.theme('dark-purple').backgroundPalette('deep-purple').dark();
