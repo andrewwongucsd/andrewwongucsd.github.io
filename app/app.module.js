@@ -2,5 +2,5 @@
 angular.module('resumeApp', [
   'ngRoute',
   'itemList',
-  'ngMaterial',
-  'ngMessages']);
+  'ngMaterial'
+]);
