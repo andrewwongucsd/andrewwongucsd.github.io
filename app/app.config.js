@@ -14,7 +14,7 @@ angular.
         }).
         otherwise('/resume');
     }
-  ]).config(function($mdThemingProvider) {
+  ]).config(['$mdThemingProvider'],function($mdThemingProvider) {
     $mdThemingProvider.theme('dark-light-blue').backgroundPalette('light-blue').dark();
     $mdThemingProvider.theme('dark-orange').backgroundPalette('orange').dark();
     $mdThemingProvider.theme('dark-purple').backgroundPalette('deep-purple').dark();

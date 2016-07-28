@@ -2,5 +2,7 @@
 angular.module('resumeApp', [
   'ngRoute',
   'itemList',
-  'ngMaterial'
+  'ngMaterial',
+  'ngMessages',
+  'material.svgAssetsCache'
 ]);
