@@ -1,0 +1,31 @@
+.carddemoBasicUsage .card-media {
+  background-color: #999999;
+}
+.b {
+  max-width:70%;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+.namecard{
+  border-radius: 20px;
+}
+
+.image{
+  border-radius: 100px;
+}
+
+.rcorners1 {
+    border-radius: 100px;
+
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.md-subhead{
+  text-transform: none
+}
+.md-headline{
+  text-transform: none;
+}
