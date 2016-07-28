@@ -1,9 +1,5 @@
 
-angular.module('MyApp',['ngMaterial', 'ngMessages', 'material.svgAssetsCache'])
-
-.controller('AppCtrl', function($scope) {
-  $scope.imagePath = 'img/washedout.png';
-})
+angular.module('resumeApp',['ngMaterial', 'ngMessages', 'material.svgAssetsCache'])
 .config(function($mdThemingProvider) {
   $mdThemingProvider.theme('dark-light-blue').backgroundPalette('light-blue').dark();
   $mdThemingProvider.theme('dark-orange').backgroundPalette('orange').dark();
