@@ -3,13 +3,13 @@
   education:[
     {
       school : "University of California, San Diego",
-      image : "http://dwiens.ucsd.edu/img/logo/ucsd.jpg",
+      image : "https://upload.wikimedia.org/wikipedia/en/4/42/UCSD_Seal.svg",
       city: "La Jolla, California",
       major: "B.S. in Computer Science",
       date: "June 2011"
     },{
       school : "San Jose States University",
-      image : "https://pbs.twimg.com/profile_images/648550307941629952/IEcWKeia.png",
+      image : "https://upload.wikimedia.org/wikipedia/en/d/d3/SJSU_Seal.svg",
       city: "San Jose, California",
       major: "M.S. in Software Engineering",
       date: "June 2017",
