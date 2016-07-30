@@ -8,6 +8,7 @@ angular.
     controller: ['$http',function ItemListController($http) {
       var self = this;
       $http.get('data/andrewwong.json').then(function(response){
+        console.log(response.data);
         self.items = response.data;
       });
     }]
