@@ -16,12 +16,14 @@
 }
 .profile_picture{
   border-radius: 100px;
+  left: -3px;
 }
 .rcorners1 {
     border-radius: 100px;
     padding: 10px;
     width: 150px;
     height: 200px;
+    background-color: white;
 }
 
 .md-subhead{
