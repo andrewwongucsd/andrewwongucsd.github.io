@@ -14,9 +14,12 @@
 .image{
   border-radius: 100px;
 }
-
+.profile_picture{
+  border-radius: 100px;
+}
 .rcorners1 {
     border-radius: 100px;
+    padding: 10px;
     width: 200px;
     height: 150px;
 }
