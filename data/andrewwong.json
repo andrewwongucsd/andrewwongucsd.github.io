@@ -22,14 +22,14 @@
   "connection":{
     "github": {
       "info": "andrewwongucsd.github.io",
-      "image": "https://assets-cdn.github.com/images/modules/open_graph/github-mark.png"
+      "image": "svg/github.svg"
     },
     "linkedin": {
       "info": "linkedin.com/in/andrewwongucsd",
       "image": "https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png"
     },
     "email": {
-      "image": "http://core0.staticworld.net/images/article/2015/12/gmail-icon-100633817-large.png",
+      "image": "svg/email.svg",
       "info": "andrewwong@alumni.ucsd.edu"
     },
     "phone": {
