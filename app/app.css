@@ -25,10 +25,17 @@
     height: 300px;
     background-color: white;
 }
+.profile_name{
+  color: white;
+}
 
-.md-subhead{
+.profile_title{
+  color: white;
+}
+
+/*.md-subhead{
   text-transform: none
 }
 .md-headline{
   text-transform: none;
-}
+}*/
