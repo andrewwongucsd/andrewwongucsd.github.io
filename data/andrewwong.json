@@ -26,15 +26,15 @@
     },
     "linkedin": {
       "info": "linkedin.com/in/andrewwongucsd",
-      "image": "https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png"
+      "image": "svg/linkedin.svg"
     },
     "email": {
       "image": "svg/email.svg",
       "info": "andrewwong@alumni.ucsd.edu"
     },
     "phone": {
-      "image": "https://openclipart.org/image/2400px/svg_to_png/399/molumen-phone-icon.png",
-      "info": "+415 787 2881"
+      "image": "svg/whatsapp.svg",
+      "info": "+1 415 787 2881"
     }
   },"projects":[
     {
