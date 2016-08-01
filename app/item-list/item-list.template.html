@@ -18,23 +18,11 @@
             </md-card-title-text>
           </md-card-title>
           <md-card-actions layout="column" layout-align="space-around stretch" md-theme="dark-purple">
-            <md-button>
-              <md-icon md-svg-icon="{{$ctrl.items.connection.email.image}}"></md-icon>
-              <md-button>{{$ctrl.items.connection.email.info}}</md-button>
+            <md-button ng-repeat="each in $ctrl.items.connection">
+              <md-icon md-svg-icon="{{each.image}}"></md-icon>
+              <md-button>{{each.info}}</md-button>
             </md-button>
-            <md-button>
-              <md-icon md-svg-icon="{{$ctrl.items.connection.github.image}}"></md-icon>
-              <md-button>{{$ctrl.items.connection.github.info}}</md-button>
-            </md-button>
-            <md-button>
-              <md-icon md-svg-icon="{{$ctrl.items.connection.linkedin.image}}"></md-icon>
-              <md-button>{{$ctrl.items.connection.linkedin.info}}</md-button>
-            </md-button>
-          <!-- </md-card-actions> -->
-          <md-button>
-            <md-icon md-svg-icon="{{$ctrl.items.connection.phone.image}}"></md-icon>
-            <md-button>{{$ctrl.items.connection.phone.info}}</md-button>
-          </md-button>
+          </md-card-actions>
         </md-card>
         <md-card md-theme="default" md-theme-watch="">
           <md-card-title layout="column" layout-align="none none">
