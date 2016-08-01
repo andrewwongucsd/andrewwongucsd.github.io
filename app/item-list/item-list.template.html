@@ -32,25 +32,13 @@
           </md-card-actions>
           <md-button>
             <md-icon md-svg-icon="{{$ctrl.items.connection.phone.image}}"></md-icon>
-            <md-button>{{$ctrl.items.connection.phone.info}}</md-button>
+            <md-button><img src="{{$ctrl.items.connection.phone.info}}"</img></md-button>
           </md-button>
         </md-card>
         <md-card md-theme="default" md-theme-watch="">
           <md-card-title layout="column" layout-align="none none">
-            <md-card-title-text>
-              <span class="md-title">Computer Network Design</span>
-              <span class="md-subhead">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
-            </md-card-title-text>
-            <md-card-title-text>
-              <span class="md-title">Computer Network Design</span>
-              <span class="md-subhead">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
-            </md-card-title-text>
-            <md-card-title-text>
-              <span class="md-title">Computer Network Design</span>
-              <span class="md-subhead">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
-            </md-card-title-text>
-            <md-card-title-text>
-              <span class="md-title">Computer Network Design</span>
+            <md-card-title-text ng-repeat="project in $ctrl.items.projects">
+              <span class="md-title">{{project.heading}}</span>
               <span class="md-subhead">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
             </md-card-title-text>
           </md-card-title>
