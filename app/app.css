@@ -1,6 +1,7 @@
 .carddemoBasicUsage .card-media {
+  background-color: #999999;
 }
-.b {
+.border {
   max-width:70%;
     margin: auto;
     border: 3px solid #73AD21;

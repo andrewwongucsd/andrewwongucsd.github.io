@@ -1,4 +1,4 @@
-<div class="b">
+<div class="border">
   <div class="carddemoBasicUsage" ng-cloak="">
     <md-content class="md-padding" layout-xs="column" layout="row">
       <div flex-xs="" flex-gt-xs="30" layout="column">
@@ -42,9 +42,9 @@
               <span class="md-subhead">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
             </md-card-title-text>
           </md-card-title>
-
+<!--
             </md-card-actions>
-          </md-card-content>
+          </md-card-content> -->
         </md-card>
       </div>
       <div flex-xs="" flex-gt-xs="70" layout="column">
@@ -67,7 +67,7 @@
             <md-card-title>
               <md-card-title-media>
                 <div class="md-media-sm card-media image">
-                  <img ng-src="{{project.image}}"></img>
+                  <img class="image" ng-src="{{project.image}}"></img>
                 </div>
               </md-card-title-media>
               <md-card-title-text layout="column" layout-align="start start">
@@ -90,7 +90,7 @@
             </md-card-title-text>
             <md-card-title-media>
               <div class="md-media-sm card-media image">
-                <img ng-src="{{intern.image}}"></img>
+                <img style="border-radius: 100px;" ng-src="{{intern.image}}"></img>
               </div>
             </md-card-title-media>
           </md-card-title>
