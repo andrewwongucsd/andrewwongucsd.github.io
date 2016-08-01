@@ -63,25 +63,15 @@
           </md-card-title>
         </md-card>
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
-          <md-button layout="column" layout-align="start start">
+          <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects">
             <md-card-title>
               <md-card-title-media>
                 <div class="md-media-sm card-media image">JavaScript</div>
               </md-card-title-media>
               <md-card-title-text layout="column" layout-align="start start">
-                <span class="md-headline">Secure TCP Client-Server System in Python</span>
-                <span class="md-subhead">EKE (Encrypted Key Exchange) protocol. A file securely transmitted <br>from server to client upon request if and only if authentication.</span>
-              </md-card-title-text>
-            </md-card-title>
-          </md-button>
-          <md-button layout="column" layout-align="start start">
-            <md-card-title>
-              <md-card-title-media>
-                <div class="md-media-sm card-media image">JavaScript</div>
-              </md-card-title-media>
-              <md-card-title-text layout="column" layout-align="start start">
-                <span class="md-headline">Secure TCP Client-Server System in Python</span>
-                <span class="md-subhead">EKE (Encrypted Key Exchange) protocol. A file securely transmitted <br>from server to client upon request if and only if authentication.</span>
+                <span class="md-headline">{{project.header}}</span>
+                <span class="md-subhead">{{project.description}}</span>
+                <span class="md-subhead">{{project.tool}}</span>
               </md-card-title-text>
             </md-card-title>
           </md-button>
