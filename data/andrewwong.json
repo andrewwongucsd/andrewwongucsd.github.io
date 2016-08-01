@@ -19,24 +19,20 @@
       "concentration": "Networking Software, Network Security, Network Application, Software Defined Network"
     }
   ],
-  "connection":{
-    "github": {
+  "connection":[{
       "info": "andrewwongucsd.github.io",
       "image": "svg/github.svg"
-    },
-    "linkedin": {
+    },{
       "info": "andrewwongucsd",
       "image": "svg/linkedin.svg"
-    },
-    "email": {
+    },{
       "image": "svg/email.svg",
       "info": "andrewwong@alumni.ucsd.edu"
-    },
-    "phone": {
-      "image": "svg/whatsapp.svg",
+    },{
+      "image": "svg/phone.svg",
       "info": "+1 415 787 2881"
     }
-  },"projects":[
+  ],"projects":[
     {
       "header": "Secure TCP Client-Server System",
       "description": "EKE (Encrypted Key Exchange) protocol. A file is securely transmitted from server to client only after authentication",
