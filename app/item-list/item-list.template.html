@@ -61,23 +61,16 @@
       </div>
       <div flex-xs="" flex-gt-xs="70" layout="column">
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
-          <md-card-title>
+          <md-card-title ng-repeat="edu in $ctrl.items.education">
             <md-card-title-text>
-              <span class="md-headline">University of California, San Diego</span>
-              <span class="md-subhead">B.S. in Computer Science. Class of 2011.</span>
+              <span class="md-headline">{{edu.school}}</span>
+              <span class="md-subhead">{{edu.major}}. {{edu.city}}. {{edu.date}}</span>
+              <span ng-if="edu.concentration" class="md-subhead">Concentration: {{edu.concentration}}</span>
             </md-card-title-text>
             <md-card-title-media>
-              <div class="md-media-sm card-media image">photo</div>
-            </md-card-title-media>
-          </md-card-title>
-          <md-card-title>
-            <md-card-title-text>
-              <span class="md-headline">San Jose States University</span>
-              <span class="md-subhead">M.S. in Software Engineering. Class of 2017. GPA 3.3</span>
-              <span class="md-subhead">Concentration: Networked Software</span>
-            </md-card-title-text>
-            <md-card-title-media>
-              <div class="md-media-sm card-media image">photo</div>
+              <div class="md-media-sm card-media image">
+                <md-icon md-svg-icon="{{edu.image}}"></md-icon>
+              </div>
             </md-card-title-media>
           </md-card-title>
         </md-card>
