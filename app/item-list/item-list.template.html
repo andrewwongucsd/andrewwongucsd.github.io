@@ -66,7 +66,7 @@
           <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects">
             <md-card-title>
               <md-card-title-media>
-                <div class="md-media-sm card-media image">JavaScript</div>
+                <img ng-src="{{project.symbol}}"></img>
               </md-card-title-media>
               <md-card-title-text layout="column" layout-align="start start">
                 <span class="md-headline">{{project.header}}</span>
@@ -84,9 +84,7 @@
               <span class="md-subhead" ng-repeat="desc in intern.description">
                 {{desc}}
               </span>
-              <div layout="column" layout-align="center center" ng-repeat="tech in intern.technology">
-                {{tech}}
-              </div>
+              <span class="md-subhead">{{intern.technology}}</span>
             </md-card-title-text>
             <md-card-title-media>
               <div class="md-media-sm card-media image">photo</div>
