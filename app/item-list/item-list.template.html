@@ -83,7 +83,11 @@
           <md-card-title ng-repeat="intern in $ctrl.items.internships">
             <md-card-title-text>
               <span class="md-headline">{{intern.position}}</span>
-              <span class="md-subhead">{{intern.company}} at {{intern.place}}. {{intern.duration}}</span>
+              <span class="md-subhead">{{intern.company}}
+                <md-icon md-svg-icon="svg/location.svg"></md-icon>
+                {{intern.place}}
+                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>
+                {{intern.duration}}</span>
               <span class="md-subhead" ng-repeat="desc in intern.description">
                 {{desc}}
               </span>
