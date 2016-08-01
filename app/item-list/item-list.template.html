@@ -84,12 +84,9 @@
               <span class="md-subhead" ng-repeat="desc in intern.description">
                 {{desc}}
               </span>
-              <div layout="row" layout-align="center center">
-                <md-button ng-repeat="tech in intern.technology">
-                  {{tech}}
-                </md-button>
+              <div layout="row" layout-align="center center" ng-repeat="tech in intern.technology">
+                {{tech}}
               </div>
-
             </md-card-title-text>
             <md-card-title-media>
               <div class="md-media-sm card-media image">photo</div>
