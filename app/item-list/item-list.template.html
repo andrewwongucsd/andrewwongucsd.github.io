@@ -1,7 +1,8 @@
 <div class="border">
   <div class="carddemoBasicUsage" ng-cloak="">
     <md-content layout="row">
-      <div  flex-gt-xs="30" layout="column">
+      <div flex-gt-xs="10" layout="column">
+      <div flex-gt-xs="20" layout="column">
         <md-card md-theme="dark-blue" md-theme-watch="" layout-align="center center" style="border-radius: 30px;">
           <md-card-title>
             <md-card-title-media>
@@ -36,7 +37,7 @@
           <!-- </md-card-content> -->
         </md-card>
       </div>
-      <div flex-gt-xs="60" layout="column">
+      <div flex-gt-xs="50" layout="column">
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title layout="row" ng-repeat="edu in $ctrl.items.education">
             <md-card-title-text>
@@ -62,7 +63,7 @@
           </md-card-title>
         </md-card>
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
-          <md-button layout="column" ng-repeat="project in $ctrl.items.projects">
+          <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects">
             <md-card-title>
               <md-card-title-media>
                 <div class="md-media-sm card-media image">
@@ -99,7 +100,7 @@
           </md-card-title>
         </md-card>
       </div>
-      <div flex-gt-xs="10" layout="column"></div>
+      <div flex-gt-xs="20" layout="column"></div>
     </md-content>
   </div>
 </div>
