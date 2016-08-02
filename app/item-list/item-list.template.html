@@ -41,11 +41,17 @@
           <md-card-title ng-repeat="edu in $ctrl.items.education">
             <md-card-title-text>
               <span class="md-headline">
-                <md-icon md-svg-icon="svg/school.svg"></md-icon>{{edu.school}}</span>
+                <md-icon md-svg-icon="svg/school.svg"></md-icon>{{edu.school}}
+              </span>
               <span class="md-subhead">
                 <md-icon md-svg-icon="svg/class.svg"></md-icon>{{edu.major}}
                 <md-icon md-svg-icon="svg/location.svg"></md-icon>{{edu.city}}
-                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}</span>
+                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}
+                <div ng-if="edu.grade" class="md-subhead">
+                  <md-icon md-svg-icon="svg/grade.svg"></md-icon>
+                  {{edu.grade}}
+                </div>
+              </span>
               <span ng-if="edu.concentration" class="md-subhead">
                 <md-icon md-svg-icon="svg/focus.svg"></md-icon>
                 {{edu.concentration}}
