@@ -39,6 +39,11 @@
       <div flex-xs="" flex-gt-xs="70" layout="column">
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title ng-repeat="edu in $ctrl.items.education">
+            <md-card-title-media>
+              <div class="md-media-sm card-media image">
+                <img ng-src="{{edu.image}}"></img>
+              </div>
+            </md-card-title-media>
             <md-card-title-text>
               <span class="md-headline">{{edu.school}}</span>
               <span class="md-subhead">{{edu.major}}
@@ -46,31 +51,31 @@
                 <br><md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}</span>
               <span ng-if="edu.concentration" class="md-subhead">Concentration: {{edu.concentration}}</span>
             </md-card-title-text>
-            <md-card-title-media>
-              <div class="md-media-sm card-media image">
-                <img ng-src="{{edu.image}}"></img>
-              </div>
-            </md-card-title-media>
           </md-card-title>
         </md-card>
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects">
             <md-card-title>
-              <md-card-title-media>
-                <div class="md-media-sm card-media image">
-                  <img class="image" ng-src="{{project.image}}"></img>
-                </div>
-              </md-card-title-media>
               <md-card-title-text layout="column" layout-align="start start">
                 <span class="md-headline">{{project.header}}</span>
                 <span class="md-subhead">{{project.description}}</span>
                 <span class="md-subhead">{{project.tool}}</span>
               </md-card-title-text>
+              <md-card-title-media>
+                <div class="md-media-sm card-media image">
+                  <img class="image" ng-src="{{project.image}}"></img>
+                </div>
+              </md-card-title-media>
             </md-card-title>
           </md-button>
         </md-card>
          <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title ng-repeat="intern in $ctrl.items.internships">
+            <md-card-title-media>
+              <div class="md-media-sm card-media image">
+                <img style="border-radius: 100px; zoom: 90%;" ng-src="{{intern.image}}"></img>
+              </div>
+            </md-card-title-media>
             <md-card-title-text>
               <span class="md-headline">{{intern.position}}</span>
               <span class="md-subhead">{{intern.company}}
@@ -83,11 +88,7 @@
               </span>
               <span class="md-subhead">{{intern.technology}}</span>
             </md-card-title-text>
-            <md-card-title-media>
-              <div class="md-media-sm card-media image">
-                <img style="border-radius: 100px; zoom: 90%;" ng-src="{{intern.image}}"></img>
-              </div>
-            </md-card-title-media>
+
           </md-card-title>
         </md-card>
       </div>
