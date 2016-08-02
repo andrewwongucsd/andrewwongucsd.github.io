@@ -64,7 +64,7 @@
               <md-card-title-text layout="column" layout-align="start start">
                 <span class="md-headline">{{project.header}}</span>
                 <span class="md-subhead">{{project.description}}</span>
-                <span class="md-subhead">{{project.tool}}</span>
+                <div class="md-subhead" ng-repeat="tool in project.tool">{{tool}}</div>
               </md-card-title-text>
             </md-card-title>
           </md-button>
