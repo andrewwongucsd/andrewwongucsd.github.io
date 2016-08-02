@@ -2,7 +2,7 @@
   background-color: #e6f0ff;
 }
 
-@media screen and (mid-width: 960px){
+@media screen and (min-width: 960px){
   .border {
     max-width:70%;
       margin: auto;
