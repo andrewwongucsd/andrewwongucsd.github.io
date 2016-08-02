@@ -36,7 +36,7 @@
     {
       "header": "Secure TCP Client-Server System",
       "description": "EKE (Encrypted Key Exchange) protocol. A file is securely transmitted from server to client only after authentication",
-      "tool": ["Python"],
+      "tool": "Python",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png"
     },{
       "header": "Facebook Page Publishing Automation",
