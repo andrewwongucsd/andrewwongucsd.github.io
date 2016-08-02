@@ -62,14 +62,14 @@
           </md-card-title>
         </md-card>
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
-          <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects">
+          <md-button layout="column" ng-repeat="project in $ctrl.items.projects">
             <md-card-title>
               <md-card-title-media>
                 <div class="md-media-sm card-media image">
                   <img class="image" ng-src="{{project.image}}"></img>
                 </div>
               </md-card-title-media>
-              <md-card-title-text layout="row">
+              <md-card-title-text layout="column">
                 <span class="md-headline">{{project.header}}</span>
                 <span class="md-subhead">{{project.description}}</span>
                 <span class="md-subhead">{{project.tool}}</span>
