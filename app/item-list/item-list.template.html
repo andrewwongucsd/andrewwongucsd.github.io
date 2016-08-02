@@ -43,7 +43,7 @@
               <span class="md-headline">{{edu.school}}</span>
               <span class="md-subhead">{{edu.major}}
                 <br><md-icon md-svg-icon="svg/location.svg"></md-icon>{{edu.city}}
-                <br><md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}</span>
+                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}</span>
               <span ng-if="edu.concentration" class="md-subhead">Concentration: {{edu.concentration}}</span>
             </md-card-title-text>
             <md-card-title-media>
@@ -76,7 +76,7 @@
               <span class="md-subhead">{{intern.company}}
                 <br><md-icon md-svg-icon="svg/location.svg"></md-icon>
                 {{intern.place}}
-                <br><md-icon md-svg-icon="svg/datetime.svg"></md-icon>
+                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>
                 {{intern.duration}}</span>
               <span class="md-subhead" ng-repeat="desc in intern.description">
                 {{desc}}
