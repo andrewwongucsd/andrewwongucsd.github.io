@@ -18,9 +18,10 @@
             </md-card-title-text>
           </md-card-title>
           <md-card-actions layout="column" layout-align=" start" md-theme="dark-purple">
-            <span layout="row" layout-align="none none" ng-repeat="each in $ctrl.items.connection">
-              <md-icon style="" md-svg-icon="{{each.image}}"></md-icon>{{each.info}}
-            </span>
+            <md-card-title-text layout="row" layout-align="none none" ng-repeat="each in $ctrl.items.connection">
+              <md-icon style="" md-svg-icon="{{each.image}}"></md-icon>
+              <span>{{each.info}}</span>
+            </md-card-title-text>
           </md-card-actions>
         </md-card>
         <md-card md-theme="default" md-theme-watch="">
@@ -30,8 +31,7 @@
               <span class="md-caption">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
             </md-card-title-text>
           </md-card-title>
-
-            </md-card-actions>
+        <!-- </md-card-actions> -->
           <!-- </md-card-content> -->
         </md-card>
       </div>
