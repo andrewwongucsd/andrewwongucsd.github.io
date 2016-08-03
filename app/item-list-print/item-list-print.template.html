@@ -20,7 +20,7 @@
           <md-card-actions layout="column" layout-align=" start" md-theme="dark-purple">
             <md-card-title-text layout="row" layout-align="none none" ng-repeat="each in $ctrl.items.connection">
               <md-icon style="" md-svg-icon="{{each.image}}"></md-icon>
-              <span class="md-subhead">{{each.info}}</span>
+              <span class="md-body-1">{{each.info}}</span>
             </md-card-title-text>
           </md-card-actions>
         </md-card>
@@ -42,7 +42,7 @@
               <span class="md-title">
                 <md-icon md-svg-icon="svg/school.svg"></md-icon>{{edu.school}}
               </span>
-              <span class="md-body-1" >
+              <span class="md-body-1">
                 <md-icon md-svg-icon="svg/class.svg"></md-icon>{{edu.major}}
                 <md-icon md-svg-icon="svg/location.svg"></md-icon>{{edu.city}}
                 <br><md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}
