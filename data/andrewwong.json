@@ -24,7 +24,7 @@
       "title": "Algorithm",
       "decsription": ""
     },{
-      "title": "Object-Oriented Programming / Design",
+      "title": "Object-Oriented Programming / Design Pattern",
       "decsription": "Java, C++"
     },{
       "title": "RESTful API",
@@ -34,6 +34,9 @@
       "decsription": ""
     },{
       "title": "Distributed System",
+      "decsription": ""
+    },{
+      "title": "Relational Databases",
       "decsription": ""
     }
   ],"education":[
