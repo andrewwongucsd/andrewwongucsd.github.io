@@ -1,8 +1,8 @@
 'use strict';
 angular.
-  module('itemList').
-  component('itemList', {
-    templateUrl: 'app/item-list/item-list.template.html',
+  module('itemListPrint').
+  component('itemListPrint', {
+    templateUrl: 'app/item-list-print/item-list-print.template.html',
     controller: ['$http',function ItemListController($http) {
       var self = this;
       $http.get('data/andrewwong.json').then(function(response){
