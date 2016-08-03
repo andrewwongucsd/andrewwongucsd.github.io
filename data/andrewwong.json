@@ -17,7 +17,7 @@
       "major": "M.S. in Software Engineering",
       "date": "June 2017",
       "grade": "3.3",
-      "concentration": "Networking Software, Network Security, Network Application, Software Defined Network"
+      "concentration": "Networking Software, Network Security"
     }
   ],
   "connection":[{
@@ -85,9 +85,9 @@
       "duration": "April 2015 - October 2015",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Accenture_Logo.svg",
       "place": "San Jose, CA",
-      "description": ["Developed two interactive front-end prototypes based on W  2UI  and  AngularJS  framework with backend by  Google App Engine  in  Python .",
+      "description": ["Developed two front-end prototypes based on W2UI and AngularJS.",
         "Basic Training in a series of Big Data Analyst Course"],
-      "technology": "HTML, Javascript (JQuery, AngularJS, W2UI), CSS, Python, Cron Jobs, Google App Engine"
+      "technology": "HTML, Javascript (JQuery, AngularJS, W2UI), CSS"
     }
   ]
 }
