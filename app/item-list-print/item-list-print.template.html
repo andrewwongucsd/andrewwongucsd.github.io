@@ -13,7 +13,7 @@
           </md-card-title>
           <md-card-title>
             <md-card-title-text>
-              <span class="md-headline profile_name">{{$ctrl.items.profile.name}}</span>
+              <span class="md-display-1 profile_name">{{$ctrl.items.profile.name}}</span>
               <span class="md-subhead profile_title">{{$ctrl.items.profile.title}}</span>
             </md-card-title-text>
           </md-card-title>
@@ -40,7 +40,7 @@
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title layout="row" ng-repeat="edu in $ctrl.items.education">
             <md-card-title-text>
-              <span class="md-headline">
+              <span class="md-title">
                 <md-icon md-svg-icon="svg/school.svg"></md-icon>{{edu.school}}
               </span>
               <span class="md-subhead" >
@@ -70,7 +70,7 @@
                 </div>
               </md-card-title-media>
               <md-card-title-text layout="column">
-                <span class="md-headline">{{project.header}}</span>
+                <span class="md-title">{{project.header}}</span>
                 <span class="md-subhead">{{project.description}}</span>
                 <span class="md-subhead">{{project.tool}}</span>
               </md-card-title-text>
@@ -80,7 +80,7 @@
          <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title ng-repeat="intern in $ctrl.items.internships">
             <md-card-title-text>
-              <span class="md-headline">{{intern.position}}</span>
+              <span class="md-title">{{intern.position}}</span>
               <span class="md-subhead">{{intern.company}}
                 <br><md-icon md-svg-icon="svg/location.svg"></md-icon>
                 {{intern.place}}
