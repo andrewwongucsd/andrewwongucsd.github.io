@@ -27,8 +27,8 @@
         <md-card md-theme="default" md-theme-watch="">
           <md-card-title layout="column" layout-align="none none">
             <md-card-title-text ng-repeat="project in $ctrl.items.projects">
-              <span class="md-title">{{project.heading}}</span>
-              <span class="md-subhead">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
+              <span class="md-body-2">{{project.heading}}</span>
+              <span class="md-caption">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
             </md-card-title-text>
           </md-card-title>
 
@@ -70,7 +70,7 @@
                 </div>
               </md-card-title-media>
               <md-card-title-text layout="column">
-                <span class="md-body-2">{{project.header}}</span>
+                <span class="md-title">{{project.header}}</span>
                 <span class="md-caption">{{project.description}}</span>
                 <span class="md-caption">{{project.tool}}</span>
               </md-card-title-text>
@@ -89,7 +89,7 @@
               <span class="md-subhead" ng-repeat="desc in intern.description">
                 {{desc}}
               </span>
-              <span class="md-subhead">{{intern.technology}}</span>
+              <span class="md-caption">{{intern.technology}}</span>
             </md-card-title-text>
             <md-card-title-media>
               <div class="md-media-sm card-media image">
