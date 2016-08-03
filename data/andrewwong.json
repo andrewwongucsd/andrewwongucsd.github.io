@@ -24,13 +24,16 @@
       "title": "Algorithm",
       "decsription": ""
     },{
-      "title": "Object-Oriented Programming",
-      "decsription": ""
+      "title": "Object-Oriented Programming / Design",
+      "decsription": "Java, C++"
     },{
       "title": "RESTful API",
       "decsription": ""
     },{
-      "title": "AngularJS",
+      "title": "Unix/Linux",
+      "decsription": ""
+    },{
+      "title": "Distributed System",
       "decsription": ""
     }
   ],"education":[
