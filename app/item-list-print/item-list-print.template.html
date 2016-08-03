@@ -25,8 +25,8 @@
           </md-card-actions>
         </md-card>
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
-          <md-card-title layout="column" layout-align="none none">
-            <md-card-title-text ng-repeat="work in $ctrl.items.coursework">
+          <md-card-title layout="row" layout-align="none none" ng-repeat="work in $ctrl.items.coursework">
+            <md-card-title-text>
               <span class="md-caption">{{work.title}}</span>
             </md-card-title-text>
           </md-card-title>
