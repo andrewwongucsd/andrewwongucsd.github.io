@@ -77,9 +77,10 @@
          <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title ng-repeat="intern in $ctrl.items.internships">
             <md-card-title-text>
-              <span class="md-subhead">{{intern.position}} - {{intern.company}}</span>
+              <span class="md-subhead">{{intern.position}} - {{intern.company}}
                 <md-icon md-svg-icon="svg/location.svg"></md-icon>{{intern.place}}
                 <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{intern.duration}}
+              </span>
               <span class="md-body-1" ng-repeat="desc in intern.description">
                 {{desc}}
               </span>
