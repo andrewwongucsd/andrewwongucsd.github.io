@@ -9,6 +9,9 @@ angular.
         when('/resume', {
           template: '<item-list></item-list>'
         }).
+        when('/print', {
+          template: '<item-list-print></item-list-print>'
+        }).
         when('/projects/:projectId', {
           template: '<project-detail></project-detail>'
         }).
