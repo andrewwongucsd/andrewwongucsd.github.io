@@ -63,8 +63,8 @@
           </md-card-title>
         </md-card>
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
-          <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects">
-            <md-card-title>
+          <!-- <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects"> -->
+            <md-card-title layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects">
               <md-card-title-media>
                 <div class="md-media-sm card-media image">
                   <img class="image" ng-src="{{project.image}}"></img>
@@ -76,7 +76,7 @@
                 <span class="md-subhead">{{project.tool}}</span>
               </md-card-title-text>
             </md-card-title>
-          </md-button>
+          <!-- </md-button> -->
         </md-card>
          <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title ng-repeat="intern in $ctrl.items.internships">
