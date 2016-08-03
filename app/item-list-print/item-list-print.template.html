@@ -18,10 +18,9 @@
             </md-card-title-text>
           </md-card-title>
           <md-card-actions layout="column" layout-align=" start" md-theme="dark-purple">
-            <md-button layout="row" layout-align="none none" ng-repeat="each in $ctrl.items.connection">
-              <md-icon style="" md-svg-icon="{{each.image}}"></md-icon>
-              {{each.info}}
-            </md-button>
+            <span layout="row" layout-align="none none" ng-repeat="each in $ctrl.items.connection">
+              <md-icon style="" md-svg-icon="{{each.image}}"></md-icon>{{each.info}}
+            </span>
           </md-card-actions>
         </md-card>
         <md-card md-theme="default" md-theme-watch="">
