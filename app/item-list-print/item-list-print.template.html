@@ -43,13 +43,13 @@
               <span class="md-title">
                 <md-icon md-svg-icon="svg/school.svg"></md-icon>{{edu.school}}
               </span>
-              <span class="md-subhead" >
+              <span class="md-body-1" >
                 <md-icon md-svg-icon="svg/class.svg"></md-icon>{{edu.major}}
                 <md-icon md-svg-icon="svg/location.svg"></md-icon>{{edu.city}}
-                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}
+                <br><md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}
                 <md-icon ng-if="edu.grade" md-svg-icon="svg/grade.svg"></md-icon>{{edu.grade}}
               </span>
-              <span ng-if="edu.concentration" class="md-subhead">
+              <span ng-if="edu.concentration" class="md-caption">
                 <md-icon md-svg-icon="svg/focus.svg"></md-icon>
                 {{edu.concentration}}
               </span>
@@ -70,9 +70,9 @@
                 </div>
               </md-card-title-media>
               <md-card-title-text layout="column">
-                <span class="md-title">{{project.header}}</span>
-                <span class="md-subhead">{{project.description}}</span>
-                <span class="md-subhead">{{project.tool}}</span>
+                <span class="md-body-2">{{project.header}}</span>
+                <span class="md-caption">{{project.description}}</span>
+                <span class="md-caption">{{project.tool}}</span>
               </md-card-title-text>
             </md-card-title>
           <!-- </md-button> -->
