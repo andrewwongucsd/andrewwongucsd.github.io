@@ -26,7 +26,7 @@
         </md-card>
         <md-card md-theme="default" md-theme-watch="">
           <md-card-title layout="column" layout-align="none none">
-            <md-card-title-text ng-if="project.visible" ng-repeat="project in $ctrl.items.projects">
+            <md-card-title-text ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
               <span class="md-body-2">{{project.heading}}</span>
               <span class="md-caption">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
             </md-card-title-text>
