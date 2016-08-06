@@ -28,16 +28,11 @@
             </md-button>
           </md-card-actions>
         </md-card>
-        <md-card md-theme="default" md-theme-watch="">
-          <md-card-title layout="column" layout-align="none none">
-            <md-card-title-text ng-repeat="project in $ctrl.items.projects">
-              <span class="md-title">{{project.heading}}</span>
-              <span class="md-subhead">Applications, Transport, Network, Datalink, Physical Layers Protocols</span>
-            </md-card-title-text>
+        <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
+          <md-card-title layout="column" layout-align="none none" ng-repeat="work in $ctrl.items.coursework">
+            <span class="md-caption" style="font-weight: bold;">{{work.title}}</span>
+            <span class="md-caption">{{work.decsription}}</span>
           </md-card-title>
-
-            </md-card-actions>
-          <!-- </md-card-content> -->
         </md-card>
       </div>
       <div flex-gt-xs="50" layout="column">
