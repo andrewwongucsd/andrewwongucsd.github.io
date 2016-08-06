@@ -13,7 +13,7 @@
       "decsription": "Development and implementation of networking software for building distributed applications."
     },{
       "title": "Internet Security & Cryptography",
-      "decsription": "Network security protocols and applications, cryptography algorithms, authentication systems, intrusion detection, network attacks and defenses, system-level security issues, and how to build secure systems"
+      "decsription": "Network security protocols and applications, cryptography algorithms, authentication systems, network attacks and defenses."
     },{
       "title": "Enterprise Distributed Systems",
       "decsription": "Introduction to application protocols for large scale distributed systems including object request brokers, asynchronous messaging, and Web services"
