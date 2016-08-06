@@ -7,7 +7,7 @@
   "coursework":[
     {
       "title": "Computer Network Design",
-      "decsription": "Network topology and queuing theory. The seven layers of the ISO reference model: physical, data link, network, transport, session, presentation and application."
+      "decsription": "Network topology and queuing theory."
     },{
       "title": "Network Programming and Application",
       "decsription": "Development and implementation of networking software for building distributed applications."
@@ -19,13 +19,13 @@
       "decsription": "Introduction to application protocols for large scale distributed systems including object request brokers, asynchronous messaging, and Web services"
     },{
       "title": "Data Stucture",
-      "decsription": "Object-oriented data organization and representation as strings, arrays, stacks, queues, dequeues, lists, sets, trees, tables, and graphs"
+      "decsription": "Object-oriented data organization and representation"
     },{
       "title": "Algorithm",
-      "decsription": "Design and analysis of data structures and algorithms. Advanced tree structures, hashing, searching and sorting. Divide-and-conquer, greedy and dynamic programming algorithm design techniques."
+      "decsription": "Advanced tree structures, hashing, searching and sorting. Divide-and-conquer, greedy and dynamic programming algorithm design techniques."
     },{
       "title": "Object-Oriented Programming / Design Pattern",
-      "decsription": "Java, C++"
+      "decsription": "Design and analysis of data structures and algorithms. Java, C++"
     },{
       "title": "Unix/Linux",
       "decsription": ""
