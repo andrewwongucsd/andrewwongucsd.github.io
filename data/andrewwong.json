@@ -7,33 +7,27 @@
   "coursework":[
     {
       "title": "Computer Network Design",
-      "decsription": ""
+      "decsription": "Network topology and queuing theory. The seven layers of the ISO reference model: physical, data link, network, transport, session, presentation and application."
     },{
       "title": "Network Programming and Application",
-      "decsription": "Network architecture, SDN-OpenFlow, OpenStack, IoT, SocketProgramming,thread and Process, IP Protocols (UDP, TCP), IP Filtering/Firewalling,"
+      "decsription": "Development and implementation of networking software for building distributed applications."
     },{
       "title": "Internet Security & Cryptography",
-      "decsription": "RSA,DES,AES,IKS,EKE,SSL,HTTPS,PKI,DigitalCertificate/Signature"
+      "decsription": "Network security protocols and applications, cryptography algorithms, authentication systems, intrusion detection, network attacks and defenses, system-level security issues, and how to build secure systems"
     },{
       "title": "Enterprise Distributed Systems",
-      "decsription": "RESTful,Integration Protocols,Replication,Security,RPC,AWS,Quality of Service"
+      "decsription": "Introduction to application protocols for large scale distributed systems including object request brokers, asynchronous messaging, and Web services"
     },{
       "title": "Data Stucture",
-      "decsription": ""
+      "decsription": "Object-oriented data organization and representation as strings, arrays, stacks, queues, dequeues, lists, sets, trees, tables, and graphs"
     },{
       "title": "Algorithm",
-      "decsription": ""
+      "decsription": "Design and analysis of data structures and algorithms. Advanced tree structures, hashing, searching and sorting. Divide-and-conquer, greedy and dynamic programming algorithm design techniques."
     },{
       "title": "Object-Oriented Programming / Design Pattern",
       "decsription": "Java, C++"
     },{
-      "title": "RESTful API",
-      "decsription": ""
-    },{
       "title": "Unix/Linux",
-      "decsription": ""
-    },{
-      "title": "Distributed System",
       "decsription": ""
     },{
       "title": "Relational Databases",

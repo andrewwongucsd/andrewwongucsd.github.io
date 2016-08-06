@@ -26,7 +26,9 @@
         </md-card>
         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title layout="column" layout-align="none none" ng-repeat="work in $ctrl.items.coursework">
-            <span class="md-caption">{{work.title}}</span>
+            <span class="md-caption">{{work.title}}
+              <div ng-if="work.description">{{work.description}}</div>
+            </span>
           </md-card-title>
         </md-card>
       </div>
