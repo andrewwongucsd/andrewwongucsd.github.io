@@ -7,7 +7,7 @@
   "coursework":[
     {
       "title": "Computer Network Design",
-      "decsription": "Network topology and queuing theory."
+      "decsription": "Network topology and queuing theory. TCP/IP."
     },{
       "title": "Network Programming and Application",
       "decsription": "Development and implementation of networking software for building distributed applications."
