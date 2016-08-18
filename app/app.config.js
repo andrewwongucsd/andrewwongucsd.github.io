@@ -15,7 +15,7 @@ angular.
         when('/projects/:projectId', {
           template: '<project-detail></project-detail>'
         }).
-        otherwise('/resume');
+        otherwise('/');
     }
   ]).config(['$mdThemingProvider',function($mdThemingProvider) {
     $mdThemingProvider.theme('dark-light-blue').backgroundPalette('light-blue').dark();
