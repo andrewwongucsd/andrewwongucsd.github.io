@@ -49,7 +49,8 @@ span.profile_title{
   width: 15px;
 }
 .coursework{
-  padding-top: 5px;
+  padding-top: 0px;
+  padding-bottom: 10px;
 }
 .coursework:nth-child(even){
   border-style: dotted none none none;
