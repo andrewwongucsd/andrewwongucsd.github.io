@@ -54,7 +54,7 @@ span.profile_title{
   border-width: thin;
   border-color: gray;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 100px;
 }
 .tool{
   text-decoration: underline;
