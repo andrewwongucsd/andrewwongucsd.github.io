@@ -49,6 +49,10 @@ span.profile_title{
   width: 15px;
 }
 
+.coursework:nth-child(2){
+  background: red;
+}
+
 
 /*.md-subhead{
   text-transform: none
