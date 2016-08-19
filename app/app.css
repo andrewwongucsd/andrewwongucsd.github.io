@@ -61,9 +61,7 @@ span.profile_title{
 }
 
 .coursework_title{
-  background-color: white;
   font-weight: bold;
-  border-radius: 10px;
 }
 .coursework_card{
   background-color: #009688;
