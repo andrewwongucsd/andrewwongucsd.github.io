@@ -50,10 +50,10 @@ span.profile_title{
 }
 .coursework{
   padding-top: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
+  border-style: dotted none none none;
 }
 .coursework:nth-child(even){
-  border-style: dotted none none none;
 }
 
 
