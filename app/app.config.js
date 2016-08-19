@@ -18,9 +18,9 @@ angular.
         otherwise('/');
     }
   ]).config(['$mdThemingProvider',function($mdThemingProvider) {
-    $mdThemingProvider.theme('dark-teal').backgroundPalette('teal').dark();
+    $mdThemingProvider.theme('teal').backgroundPalette('teal');
     $mdThemingProvider.theme('dark-orange').backgroundPalette('orange').dark();
     $mdThemingProvider.theme('dark-purple').backgroundPalette('deep-purple').dark();
-    $mdThemingProvider.theme('dark-blue').backgroundPalette('blue').dark();
+    $mdThemingProvider.theme('blue').backgroundPalette('blue');
   }]
 );
