@@ -2,7 +2,7 @@
   <div class="carddemoBasicUsage" ng-cloak="">
     <md-content layout="row" layout-xs="row">
       <div flex-xs="35" flex-gt-xs="30" layout="column">
-        <md-card layout-xs="column" md-theme="dark-blue" md-theme-watch="" layout-align="center center" style="border-radius: 30px;">
+        <md-card class="namecard" layout-xs="column" md-theme="dark-blue" md-theme-watch="" layout-align="center center">
           <md-card-title>
             <md-card-title-media>
               <div class="md-media-md card-media rcorners1">
@@ -24,7 +24,7 @@
             </md-card-title-text>
           </md-card-actions>
         </md-card>
-        <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
+        <md-card class="namecard" md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title layout="column" layout-align="none none" ng-repeat="work in $ctrl.items.coursework">
             <span class="md-caption" style="font-weight: bold;">{{work.title}}</span>
             <span class="md-caption">{{work.decsription}}</span>
@@ -32,7 +32,7 @@
         </md-card>
       </div>
       <div flex-xs="65" flex-gt-xs="70" layout="column">
-        <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
+        <md-card class="namecard" md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title layout="row" ng-repeat="edu in $ctrl.items.education">
             <md-card-title-text>
               <span class="md-subhead" style="color:black; font-weight: bold;">
@@ -56,7 +56,7 @@
             </md-card-title-media>
           </md-card-title>
         </md-card>
-        <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
+        <md-card class="namecard" md-theme="default" md-theme-watch="" style="border-radius:20px">
           <!-- <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects"> -->
             <md-card-title layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
               <md-card-title-media>
@@ -72,7 +72,7 @@
             </md-card-title>
           <!-- </md-button> -->
         </md-card>
-         <md-card md-theme="default" md-theme-watch="" style="border-radius:20px">
+         <md-card class="namecard" md-theme="default" md-theme-watch="" style="border-radius:20px">
           <md-card-title ng-repeat="intern in $ctrl.items.internships">
             <md-card-title-text>
               <span class="md-subhead">{{intern.position}} - {{intern.company}}
