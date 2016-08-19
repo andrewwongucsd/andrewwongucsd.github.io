@@ -51,12 +51,17 @@ span.profile_title{
 .coursework{
   padding-top: 0px;
   padding-bottom: 5px;
-  border-style: dashed;
   border-width: thin;
   border-color: gray;
 }
 .tool{
   text-decoration: underline;
+}
+
+.coursework_title{
+  background-color: yellow;
+  font-weight: bold;
+  border-radius: 50px;
 }
 /*.coursework:nth-child(n){
 
