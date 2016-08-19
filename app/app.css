@@ -51,9 +51,9 @@ span.profile_title{
 .coursework{
   padding-top: 8px;
 }
-.coursework:nth-child(even){
+/*.coursework:nth-child(even){
   border-style: outset;
-}
+}*/
 
 
 /*.md-subhead{
