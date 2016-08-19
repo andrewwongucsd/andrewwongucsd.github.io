@@ -49,11 +49,11 @@ span.profile_title{
   width: 15px;
 }
 .coursework{
-  padding-top: 8px;
+  padding-top: 5px;
 }
-/*.coursework:nth-child(even){
-  border-style: outset;
-}*/
+.coursework:nth-child(even){
+  border-style: dotted none none none;
+}
 
 
 /*.md-subhead{
