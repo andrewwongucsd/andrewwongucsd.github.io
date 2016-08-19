@@ -119,7 +119,8 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Accenture_Logo.svg",
       "place": "San Jose, CA",
       "description": ["Developed two front-end prototypes based on W2UI and AngularJS.",
-        "Basic Training in a series of Big Data Analyst Course"],
+        "Basic Training in a series of Big Data Analyst Course",
+        "Software Development Life Cycle"],
       "technology": "HTML, Javascript (JQuery, AngularJS, W2UI), CSS"
     }
   ]
