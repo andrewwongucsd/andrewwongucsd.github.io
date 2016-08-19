@@ -55,6 +55,9 @@ span.profile_title{
   border-width: thin;
   border-color: gray;
 }
+.tool{
+  text-decoration: underline;
+}
 /*.coursework:nth-child(n){
 
 }*/
