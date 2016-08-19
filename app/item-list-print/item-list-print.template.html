@@ -19,7 +19,7 @@
           </md-card-title>
           <md-card-actions layout="column" layout-align="start start" md-theme="dark-purple">
             <md-card-title-text layout="row" layout-align="none none" ng-repeat="each in $ctrl.items.connection">
-              <md-icon style="" md-svg-icon="{{each.image}}"></md-icon>
+              <md-icon class="" style="" md-svg-icon="{{each.image}}"></md-icon>
               <span class="md-body-2">{{each.info}}</span>
             </md-card-title-text>
           </md-card-actions>
@@ -33,7 +33,7 @@
       </div>
       <div flex-xs="65" flex-gt-xs="70" layout="column">
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
-          <md-card-title layout="row" ng-repeat="edu in $ctrl.items.education">
+          <md-card-title class="card-title" layout="row" ng-repeat="edu in $ctrl.items.education">
             <md-card-title-text>
               <span class="md-subhead" style="color:black; font-weight: bold;">
                 <md-icon md-svg-icon="svg/school.svg"></md-icon>{{edu.school}}

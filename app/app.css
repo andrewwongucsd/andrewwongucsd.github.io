@@ -39,6 +39,10 @@
   color: white;
 }
 
+.card-title{
+  padding-top: 10px;
+}
+
 
 /*.md-subhead{
   text-transform: none
