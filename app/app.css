@@ -59,9 +59,12 @@ span.profile_title{
 }
 
 .coursework_title{
-  background-color: yellow;
+  background-color: white;
   font-weight: bold;
   border-radius: 50px;
+}
+.coursework_card{
+  background-color: #009688;
 }
 /*.coursework:nth-child(n){
 
