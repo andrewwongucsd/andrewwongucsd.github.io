@@ -48,10 +48,13 @@ span.profile_title{
   height: 15px;
   width: 15px;
 }
-.coursework{
+.coursework:nth-child(2n+1){
   padding-top: 0px;
   padding-bottom: 8px;
   border-style: dotted none none none;
+  border-width: thin;
+  border-color: gray;
+
 }
 .coursework:nth-child(even){
 }
