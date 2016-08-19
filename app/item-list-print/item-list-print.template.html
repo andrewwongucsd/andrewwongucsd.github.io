@@ -25,7 +25,7 @@
           </md-card-actions>
         </md-card>
         <md-card class="namecard" md-theme="default" md-theme-watch="">
-          <md-card-title layout="column" layout-align="none none" ng-repeat="work in $ctrl.items.coursework">
+          <md-card-title class="card-title" layout="column" layout-align="none none" ng-repeat="work in $ctrl.items.coursework">
             <span class="md-caption" style="font-weight: bold;">{{work.title}}</span>
             <span class="md-caption">{{work.decsription}}</span>
           </md-card-title>
@@ -58,7 +58,7 @@
         </md-card>
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
           <!-- <md-button layout="column" layout-align="start start" ng-repeat="project in $ctrl.items.projects"> -->
-            <md-card-title layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
+            <md-card-title class="card-title" layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
               <md-card-title-media>
                 <div class="md-media-sm card-media image">
                   <img class="image" ng-src="{{project.image}}"></img>
@@ -73,7 +73,7 @@
           <!-- </md-button> -->
         </md-card>
          <md-card class="namecard" md-theme="default" md-theme-watch="" >
-          <md-card-title ng-repeat="intern in $ctrl.items.internships">
+          <md-card-title class="card-title" ng-repeat="intern in $ctrl.items.internships">
             <md-card-title-text>
               <span class="md-subhead">{{intern.position}} - {{intern.company}}
                 <md-icon md-svg-icon="svg/location.svg"></md-icon>{{intern.place}}
