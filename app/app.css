@@ -53,6 +53,9 @@ span.profile_title{
   padding-bottom: 5px;
   border-width: thin;
   border-color: gray;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 10px;
 }
 .tool{
   text-decoration: underline;
@@ -61,7 +64,7 @@ span.profile_title{
 .coursework_title{
   background-color: white;
   font-weight: bold;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 .coursework_card{
   background-color: #009688;
