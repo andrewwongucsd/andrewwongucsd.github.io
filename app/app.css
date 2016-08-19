@@ -50,8 +50,8 @@ span.profile_title{
 }
 .coursework{
   padding-top: 0px;
-  padding-bottom: 8px;
-  border-style: dotted dotted none none;
+  padding-bottom: 5px;
+  border-style: dotted;
   border-width: thin;
   border-color: gray;
 }
