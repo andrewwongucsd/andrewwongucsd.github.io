@@ -6,8 +6,8 @@
   },
   "coursework":[
     {
-      "title": "Web / Data Mining",
-      "decsription": "Data mining and Web mining, data preprocessing, association rules and sequential patterns, classification, clustering, Web crawling, information retrieval and search engines, social network analysis, link analysis, ranking, Web usage mining, Web personalization and recommender systems, advanced topics."
+      "title": "Web and Data Mining",
+      "decsription": "Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems, advanced topics."
     },{
       "title": "Software-Defined Networks / Network Function Virtualization",
       "decsription": "Building Programmable network applications"
