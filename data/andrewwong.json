@@ -6,6 +6,9 @@
   },
   "coursework":[
     {
+      "title": "Software-Defined Networks / Network Function Virtualization",
+      "decsription": "Building Programmable network applications"
+    },{
       "title": "Computer Network Design",
       "decsription": "Network topology and queuing theory. TCP/IP."
     },{
@@ -18,7 +21,7 @@
       "title": "Enterprise Distributed Systems",
       "decsription": "Introduction to application protocols for large scale distributed systems including object request brokers, asynchronous messaging, and Web services"
     },{
-      "title": "Data Stucture",
+      "title": "Data Stucture / Algorithm",
       "decsription": "Object-oriented data organization and representation"
     },{
       "title": "Algorithm",
@@ -26,12 +29,6 @@
     },{
       "title": "Object-Oriented Programming / Design Pattern",
       "decsription": "Design and analysis of data structures and algorithms. Java."
-    },{
-      "title": "Unix/Linux"
-    },{
-      "title": "Relational Databases"
-    },{
-      "title": "Software Development Life Cycle / Software Engineering"
     }
   ],"education":[
     {
