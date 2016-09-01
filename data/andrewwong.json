@@ -7,7 +7,7 @@
   "coursework":[
     {
       "title": "Web and Data Mining",
-      "decsription": "Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems."
+      "decsription": "SQL, Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems."
     },{
       "title": "Software-Defined Networks / Network Function Virtualization",
       "decsription": "Building Programmable network applications"
