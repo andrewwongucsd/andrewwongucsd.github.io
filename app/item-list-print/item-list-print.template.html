@@ -66,9 +66,9 @@
               </md-card-title-media>
               <md-card-title-text layout="column">
                 <span class="md-subhead">{{project.header}}</span>
-                <ul ng-repeat="desc in project.descriptions">
-                  <li>{{desc}}</li>
-                </ul>
+                <span ng-repeat="desc in project.descriptions">
+                  - {{desc}}
+                </span>
 
                 <span class="md-caption tool">{{project.tool}}</span>
               </md-card-title-text>
