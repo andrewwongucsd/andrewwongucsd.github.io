@@ -2,14 +2,16 @@
   <div class="carddemoBasicUsage" ng-cloak="">
     <md-content layout="row" layout-xs="row">
       <div flex-xs="35" flex-gt-xs="30" layout="column">
-        <md-radio-group layout="row" layout-align="center center">
-          <div ng-repeat='model in $ctrl.items.profile.models'>
-            <md-radio-button ng-value="model" class="md-caption" >
-              {{model}}
-            </md-radio-button>
-          </div>
-        </md-radio-group>
         <md-card class="namecard" layout-xs="column" md-theme="dark-blue" md-theme-watch="" layout-align="center center">
+          <md-card-title>
+            <md-radio-group layout="row" layout-align="center center">
+              <div ng-repeat='model in $ctrl.items.profile.models'>
+                <md-radio-button ng-value="model" class="md-caption" >
+                  {{model}}
+                </md-radio-button>
+              </div>
+            </md-radio-group>
+          </md-card-title>
           <md-card-title>
             <md-card-title-media>
               <div class="md-media-md card-media rcorners1">
