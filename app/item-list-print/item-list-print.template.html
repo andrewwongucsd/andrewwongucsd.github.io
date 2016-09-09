@@ -15,6 +15,15 @@
             <md-card-title-text>
               <span class="md-headline profile_name">{{$ctrl.items.profile.name}}</span>
               <span class="profile_title md-subhead">{{$ctrl.items.profile.title}}</span>
+              <md-radio-group ng-model="cc.selectedId" >
+                <div ng-repeat='model in $ctrl.items.profile.models' class="row">
+                  <div flex layout='row' layout-padding layout-align="start center" >
+                    <md-radio-button flex ng-value="model" class="md-primary" >
+                      {{model}}
+                    </md-radio-button>
+                  </div>
+                </div>
+              </md-radio-group>
             </md-card-title-text>
           </md-card-title>
           <md-card-actions layout="column" layout-align="start start" md-theme="dark-purple">
