@@ -73,7 +73,8 @@
       "visible": true
     },{
       "header": "Facebook Page Publishing Automation",
-      "descriptions": ["Making customized parser and Compiling them into array,and pushing to page."],
+      "descriptions": ["Designed and Implemented code parser which Compiles input into array",
+        "Pushed each item through RESTful API Call"],
       "tool": "Javascript, Facebook Javascript SDK",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
       "visible": true
