@@ -6,9 +6,11 @@
           <md-card-title>
             <md-radio-group layout="row" layout-align="center center">
               <div ng-repeat='model in $ctrl.items.profile.models'>
-                <md-radio-button ng-value="model" class="md-caption" >
+                <!-- <md-radio-button ng-value="model" class="md-caption" >
                   {{model}}
-                </md-radio-button>
+                </md-radio-button> -->
+                <md-button class="md-raised">{{model}}</md-button>
+                <md-button ng-disabled="true">{{model}}</md-button>
               </div>
             </md-radio-group>
           </md-card-title>
