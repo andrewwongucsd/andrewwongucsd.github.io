@@ -18,7 +18,7 @@
               <md-radio-group>
                 <div ng-repeat='model in $ctrl.items.profile.models'>
                   <div layout='row' layout-align="center center" >
-                    <md-radio-button class="md-caption" >
+                    <md-radio-button ng-value="model" class="md-caption" >
                       {{model}}
                     </md-radio-button>
                   </div>
