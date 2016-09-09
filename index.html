@@ -6,11 +6,12 @@
   <link rel="stylesheet" href="app/app.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
   <script type="text/javascript">
-  function s() {
+  function s(element) {
     var x = document.getElementsByClassName("radio");
-    console.log(this);
-    console.log(x);
-
+    for(var i = 0; i < x.length; i++){
+      x.classList.remove('md-raised');
+    }
+    element.classList.add('md-raised');
   }
   </script>
 </head>
