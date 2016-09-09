@@ -13,6 +13,7 @@ angular.
       self.select = function(){
         var r = document.getElementsByClassName("radio");
         console.log(r);
+        alert(r);
       };
     }]
   });
