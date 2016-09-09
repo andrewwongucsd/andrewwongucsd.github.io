@@ -7,11 +7,11 @@ angular.
       var self = this;
       $http.get('data/andrewwong.json').then(function(response){
         self.items = response.data;
+        self.select = function(){
+          var r = document.getElementsByClassName("radio");
+          console.log(r);
+          alert(r);
+        };
       });
-      self.select = function(){
-        var r = document.getElementsByClassName("radio");
-        console.log(r);
-        alert(r);
-      };
     }]
   });
