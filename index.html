@@ -10,9 +10,10 @@
     var x = document.getElementsByClassName("radio");
     for(var i = 0; i < x.length; i++){
       x[i].classList.remove('md-raised');
-      x[i].classList.remove('active');
+      x[i].classList.add('inactive');
     }
     element.classList.add('md-raised');
+    element.classList.remove('inactive');
   }
   </script>
 </head>
