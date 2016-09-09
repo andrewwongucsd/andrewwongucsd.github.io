@@ -29,11 +29,13 @@
 }
 .profile_name{
   color: white;
+  padding: 0px 0px 0px 0px;
+
 }
 
 span.profile_title{
   color: white;
-  padding-top: 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .info_style{
