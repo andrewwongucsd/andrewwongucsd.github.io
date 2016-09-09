@@ -3,14 +3,14 @@
     <md-content layout="row" layout-xs="row">
       <div flex-xs="35" flex-gt-xs="30" layout="column">
         <md-card class="namecard" layout-xs="column" md-theme="dark-blue" md-theme-watch="" layout-align="center center">
-          <!-- <md-card-title>
+          <md-card-title>
             <md-card-title-media>
               <div class="md-media-md card-media rcorners1">
                 <img class="md-media-md card-media profile_picture" style=""
                 ng-src="{{$ctrl.items.profile.picture}}"/>
               </div>
             </md-card-title-media>
-          </md-card-title> -->
+          </md-card-title>
           <md-card-title>
             <md-card-title-text>
               <span class="md-headline profile_name">{{$ctrl.items.profile.name}}</span>
@@ -66,7 +66,7 @@
               </md-card-title-media>
               <md-card-title-text layout="column">
                 <span class="md-subhead">{{project.header}}</span>
-                <span ng-repeat="desc in project.descriptions">
+                <span class="md-caption" ng-repeat="desc in project.descriptions">
                   ‣ {{desc}}
                 </span>
 
