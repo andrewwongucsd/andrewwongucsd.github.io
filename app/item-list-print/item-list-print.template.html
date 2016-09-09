@@ -15,9 +15,9 @@
             <md-card-title-text>
               <span class="md-headline profile_name">{{$ctrl.items.profile.name}}</span>
               <span class="profile_title md-subhead">{{$ctrl.items.profile.title}}</span>
-              <md-radio-group>
+              <md-radio-group layout="column">
                 <div ng-repeat='model in $ctrl.items.profile.models'>
-                  <div layout='column' layout-align="center center" >
+                  <div layout='row' layout-align="center center" >
                     <md-radio-button ng-value="model" class="md-caption" >
                       {{model}}
                     </md-radio-button>
