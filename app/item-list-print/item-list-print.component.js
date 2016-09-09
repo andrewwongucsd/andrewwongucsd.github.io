@@ -5,7 +5,7 @@ angular.
     templateUrl: 'app/item-list-print/item-list-print.template.html',
     controller: ['$http',function ItemListController($http) {
       var self = this;
-      self.select = function select(){
+      self.s = function s(){
         var r = document.getElementsByClassName("radio");
         console.log(r);
         alert(r);
