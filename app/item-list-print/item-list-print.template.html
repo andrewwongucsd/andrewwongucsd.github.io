@@ -16,8 +16,8 @@
               <span class="md-headline profile_name">{{$ctrl.items.profile.name}}</span>
               <span class="profile_title md-subhead">{{$ctrl.items.profile.title}}</span>
               <md-radio-group>
-                <div ng-repeat='model in $ctrl.items.profile.models' class="column">
-                  <div flex layout='row' layout-padding layout-align="start center" >
+                <div ng-repeat='model in $ctrl.items.profile.models'>
+                  <div flex layout='column' layout-padding layout-align="start center" >
                     <md-radio-button flex ng-value="model" class="md-caption" >
                       {{model}}
                     </md-radio-button>
