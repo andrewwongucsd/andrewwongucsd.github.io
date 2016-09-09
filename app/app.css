@@ -66,6 +66,10 @@ span.profile_title{
 .coursework_card{
   background-color: #009688;
 }
+
+.acive{
+  background-color: #009688;
+}
 /*.coursework:nth-child(n){
 
 }*/
