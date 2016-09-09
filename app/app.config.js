@@ -1,5 +1,4 @@
 'use strict';
-
 angular.
   module('resumeApp').
   config(['$locationProvider' ,'$routeProvider',
