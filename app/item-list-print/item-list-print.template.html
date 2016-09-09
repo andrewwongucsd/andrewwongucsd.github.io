@@ -15,13 +15,11 @@
             <md-card-title-text>
               <span class="md-headline profile_name">{{$ctrl.items.profile.name}}</span>
               <span class="profile_title md-subhead">{{$ctrl.items.profile.title}}</span>
-              <md-radio-group layout="column">
+              <md-radio-group layout="row" layout-align="center center">
                 <div ng-repeat='model in $ctrl.items.profile.models'>
-                  <div layout-align="center center" >
-                    <md-radio-button ng-value="model" class="md-caption" >
-                      {{model}}
-                    </md-radio-button>
-                  </div>
+                  <md-radio-button ng-value="model" class="md-caption" >
+                    {{model}}
+                  </md-radio-button>
                 </div>
               </md-radio-group>
             </md-card-title-text>
