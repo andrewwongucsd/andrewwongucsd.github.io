@@ -12,6 +12,7 @@ angular.
       };
       $http.get('data/andrewwong.json').then(function(response){
         self.items = response.data;
+        console.log("in print");
       });
     }]
   });
