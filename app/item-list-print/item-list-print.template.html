@@ -1,10 +1,7 @@
 <script>
-  (function s(){
-    var r = document.getElementsByClassName("radio");
-    console.log(r);
-    alert(r);
-  })();
-
+function myFunction() {
+    console.log("hello");
+}
 </script>
 <div>
   <div class="carddemoBasicUsage" ng-cloak="">
@@ -17,7 +14,7 @@
                 <!-- <md-radio-button ng-value="model" class="md-caption" >
                   {{model}}
                 </md-radio-button> -->
-                <md-button onclick="s()" class="radio md-raised">{{model}}</md-button>
+                <md-button onclick="myFunction()" class="radio md-raised">{{model}}</md-button>
               </div>
             </md-radio-group>
           </md-card-title>
