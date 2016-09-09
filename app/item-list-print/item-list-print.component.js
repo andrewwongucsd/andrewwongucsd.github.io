@@ -7,7 +7,7 @@ angular.
       var self = this;
       $http.get('data/andrewwong.json').then(function(response){
         self.items = response.data;
-        self.select = function(){
+        self.select = function select(){
           var r = document.getElementsByClassName("radio");
           console.log(r);
           alert(r);
