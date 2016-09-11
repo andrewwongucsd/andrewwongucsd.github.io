@@ -8,16 +8,16 @@
   "coursework":[
     {
       "title": "Web and Data Mining",
-      "decsription": "SQL, Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems.",
+      "decsription": "SQL, Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems."
     },{
       "title": "Software-Defined Networks / Network Function Virtualization",
-      "decsription": "Building Programmable network applications",
+      "decsription": "Building Programmable network applications"
     },{
       "title": "Computer Network Design",
-      "decsription": "Network topology and queuing theory. TCP/IP.",
+      "decsription": "Network topology and queuing theory. TCP/IP."
     },{
       "title": "Network Programming and Application",
-      "decsription": "Development and implementation of networking software for building distributed applications.",
+      "decsription": "Development and implementation of networking software for building distributed applications."
     },{
       "title": "Internet Security & Cryptography",
       "decsription": "Network security protocols and applications, cryptography algorithms, authentication systems, network attacks and defenses."
@@ -147,7 +147,7 @@
     "Designed and executed test procedures, reported incidents, and worked with Oracle databases and Java Servlet.",
     "Organized and led meetings of users and developers for each follow-up.",
     "Investigated and troubleshot low level issues such as connection, periodic jobs by prompting command in Shell",
-    "Constructed test cases through automated system or manual handling.",
+    "Constructed test cases through automated system or manual handling."
     ],
   "technology": "HTML, Javascript (JQuery), CSS, Java, MySQL"
 }]
