@@ -144,9 +144,8 @@
       "Implemented the approved system plan under the testing environment on IBM WebSphere J2EE Framework in Java.",
       "Improved layout and user-interaction according to requirements by changing CSS and JavaScript via JQuery",
       "Investigated and then Optimized the system from the network congestion to application tuning by stress tests.",
-      "Analyzed reported bugs and troubleshot them by providing solutions to resolve issues.",
-      "Performed System Integration Test (SIT) and assisted helps on User Acceptance Test (UAT) and deployment."
-        ],
+      "Analyzed reported bugs and troubleshot them by providing solutions to resolve issues."
+            ],
     "technology": "HTML, Javascript (JQuery), CSS, Java",
     "visible": true
   },{
