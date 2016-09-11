@@ -9,39 +9,39 @@
     {
       "title": "Web and Data Mining",
       "decsription": "SQL, Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems.",
-      "visibility": true
+      "visible": true
     },{
       "title": "Software-Defined Networks / Network Function Virtualization",
       "decsription": "Building Programmable network applications",
-      "visibility": true
+      "visible": true
     },{
       "title": "Computer Network Design",
       "decsription": "Network topology and queuing theory. TCP/IP.",
-      "visibility": true
+      "visible": true
     },{
       "title": "Network Programming and Application",
       "decsription": "Development and implementation of networking software for building distributed applications.",
-      "visibility": true
+      "visible": true
     },{
       "title": "Internet Security & Cryptography",
       "decsription": "Network security protocols and applications, cryptography algorithms, authentication systems, network attacks and defenses.",
-      "visibility": true
+      "visible": true
     },{
       "title": "Enterprise Distributed Systems",
       "decsription": "Introduction to application protocols for large scale distributed systems including object request brokers, asynchronous messaging, and Web services",
-      "visibility": true
+      "visible": true
     },{
       "title": "Data Stucture",
       "decsription": "Object-oriented data organization and representation",
-      "visibility": true
+      "visible": true
     },{
       "title": "Algorithm",
       "decsription": "Advanced tree structures, hashing, searching and sorting. Divide-and-conquer, greedy and dynamic programming algorithm design techniques.",
-      "visibility": true
+      "visible": true
     },{
       "title": "Object-Oriented Programming / Design Pattern",
       "decsription": "Design and analysis of data structures and algorithms. Java.",
-      "visibility": true
+      "visible": true
     }
   ],"education":[
     {
@@ -50,7 +50,7 @@
       "city": "La Jolla, California",
       "major": "B.S. in Computer Science",
       "date": "June 2011",
-      "visibility": true
+      "visible": true
     },{
       "school" : "San Jose States University",
       "image" : "https://upload.wikimedia.org/wikipedia/en/d/d3/SJSU_Seal.svg",
@@ -59,7 +59,7 @@
       "date": "2017",
       "grade": "3.3",
       "concentration": "Networking Software, Network Security, Software Defined Network, Network functions virtualization",
-      "visibility": true
+      "visible": true
     }
   ],
   "connection":[{
@@ -82,44 +82,44 @@
         "Implemented transmitted securely from server to client only after authentication"],
       "tool": "Python",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-      "visibility": true
+      "visible": true
     },{
       "header": "Facebook Page Publishing Automation",
       "descriptions": ["Designed and Implemented code parser which Compiles input into array",
         "Pushed each item through RESTful API Call"],
       "tool": "Javascript, Facebook Javascript SDK",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
-      "visibility": true
+      "visible": true
     },{
       "header": "Webhook Scheduler",
       "descriptions": ["Offline HTTP Scheduler that retrieves and forwards calls to destinations until success or certain number of retry in Go."],
       "tool": "Golang",
       "image": "https://camo.githubusercontent.com/98ed65187a84ecf897273d9fa18118ce45845057/68747470733a2f2f7261772e6769746875622e636f6d2f676f6c616e672d73616d706c65732f676f706865722d766563746f722f6d61737465722f676f706865722e706e67",
-      "visibility": true
+      "visible": true
     },{
       "header": "TCP / UDP Socket Programming Web Server and Client",
       "descriptions": ["Making thread for each connetion"],
       "tool": "Java",
       "image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-      "visibility": true
+      "visible": true
     },{
       "header": "Fault-tolerant Distribution and Persistence of Objects Using Replication",
       "descriptions": ["RESTful API and TCP-based RPC(Remote Procedure Call) between Nodes"],
       "tool": "Golang, TOML",
       "image": "https://camo.githubusercontent.com/98ed65187a84ecf897273d9fa18118ce45845057/68747470733a2f2f7261772e6769746875622e636f6d2f676f6c616e672d73616d706c65732f676f706865722d766563746f722f6d61737465722f676f706865722e706e67",
-      "visibility": true
+      "visible": true
     },{
       "header": "Automatic Class Attendance System",
       "descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
       "tool": "Java(Android), NodeJS, HTML, JavaScript, bootstrap",
       "image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-      "visibility": true
+      "visible": true
     },{
       "header": "Inventory Tracking System",
       "descriptions": ["A Google App Engine based app to maintain and monitor amount of inventory and sales"],
       "tool": "Python, Google datastore, HTML, Javascript, AngularJS",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-      "visibility": true
+      "visible": true
     }
   ],"internships":[
     {
@@ -131,7 +131,7 @@
       "descriptions": ["Developed two front-end prototypes based on W2UI and AngularJS.",
         "RESTful API Implementation in Python"],
       "technology": "HTML, Javascript (JQuery, AngularJS, W2UI), CSS, Python",
-      "visibility": true
+      "visible": true
     },{
     "company": "The Hong Kong and Shanghai Banking Corporation (Hang Seng Bank)",
     "position": "Software Engineer (Full Stack Web Application) ",
@@ -148,7 +148,7 @@
       "Analyzed weekly traffic data."
       ],
     "technology": "HTML, Javascript (JQuery), CSS, Java",
-    "visibility": true
+    "visible": true
   },{
   "company": "PCCW Solutions",
   "position": "Solution Developer (Full Stack Developer)",
@@ -162,6 +162,6 @@
     "Constructed test cases through automated system or manual handling."
     ],
   "technology": "HTML, Javascript (JQuery), CSS, Java, MySQL",
-  "visibility": false
+  "visible": false
 }]
 }
