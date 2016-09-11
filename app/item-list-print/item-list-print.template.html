@@ -88,8 +88,8 @@
           <md-card-title class="card-title" ng-if="intern.visible == true" ng-repeat="intern in $ctrl.items.internships">
             <md-card-title-text>
               <span class="md-subhead">{{intern.position}} - {{intern.company}}
-                <md-icon md-svg-icon="svg/location.svg"></md-icon>{{intern.place}}
-                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{intern.duration}}
+                <span><md-icon md-svg-icon="svg/location.svg"></md-icon>{{intern.place}}</span>
+                <span><md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{intern.duration}}</span>
               </span>
               <span class="md-caption" ng-repeat="desc in intern.descriptions">
                 ‣ {{desc}}
