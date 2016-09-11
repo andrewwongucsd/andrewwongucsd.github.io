@@ -122,7 +122,7 @@
       "Designed, Implemented, Tested "],
       "tool": "Python, Google datastore, HTML, Javascript, AngularJS",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-      "visible": true
+      "visible": false
     }
   ],"internships":[
     {
@@ -131,9 +131,8 @@
       "duration": "April 2015 - October 2015",
       "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Accenture_Logo.svg",
       "place": "San Jose, CA",
-      "descriptions": ["Developed two front-end prototypes based on W2UI and AngularJS.",
-        "RESTful API Implementation in Python"],
-      "technology": "HTML, Javascript (JQuery, AngularJS, W2UI), CSS, Python",
+      "descriptions": ["Developed two front-end prototypes based on W2UI and AngularJS."],
+      "technology": "HTML, Javascript (JQuery, AngularJS, W2UI), CSS",
       "visible": true
     },{
     "company": "The Hong Kong and Shanghai Banking Corporation (Hang Seng Bank)",
@@ -147,9 +146,8 @@
       "Investigated and then Optimized the system from the network congestion to application tuning by stress tests.",
       "Analyzed reported bugs and troubleshot them by providing solutions to resolve issues.",
       "Performed System Integration Test (SIT) and assisted helps on User Acceptance Test (UAT) and deployment.",
-      "Filed system releases, changes and bug fixes.",
-      "Analyzed weekly traffic data."
-      ],
+      "Filed system releases, changes and bug fixes."
+    ],
     "technology": "HTML, Javascript (JQuery), CSS, Java",
     "visible": true
   },{
