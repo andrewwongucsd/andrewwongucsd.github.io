@@ -78,8 +78,8 @@
   ],"projects":[
     {
       "header": "Floodlight SDN Controller on Mininet",
-      "descriptions": ["Designed the implementation of EKE (Encrypted Key Exchange) protocol",
-        "Implemented transmitted securely from server to client only after authentication"],
+      "descriptions": ["Built a network application on SDN or on NFV",
+      "Design, construct, and optimize network architectures by using SDN"],
       "tool": "Java",
       "image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
       "visible": true
@@ -89,21 +89,21 @@
         "Implemented transmitted securely from server to client only after authentication"],
       "tool": "Python",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-      "visible": false
+      "visible": true
     },{
       "header": "Facebook Page Publishing Automation",
       "descriptions": ["Designed and Implemented code parser which Compiles input into array",
         "Pushed each item through RESTful API Call"],
       "tool": "Javascript, Facebook Javascript SDK",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
-      "visible": true
+      "visible": false
     },{
       "header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
       "descriptions": ["An API service for allowing for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
         "Implemented and Designed the routine to take calls and commands nodes through RPC."],
       "tool": "Golang, TOML",
       "image": "https://camo.githubusercontent.com/98ed65187a84ecf897273d9fa18118ce45845057/68747470733a2f2f7261772e6769746875622e636f6d2f676f6c616e672d73616d706c65732f676f706865722d766563746f722f6d61737465722f676f706865722e706e67",
-      "visible": false
+      "visible": true
     },{
       "header": "TCP / UDP Socket Programming Web Server and Client",
       "descriptions": ["Made thread for each connetion", "Implemented feature such as scability, security, session"],
