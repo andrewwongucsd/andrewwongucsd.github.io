@@ -12,7 +12,7 @@ angular.
           template: '<item-list-print></item-list-print>'
         }).
         when('/redirect', {
-          template: '<meta http-equiv="refresh" content="0; URL="http://www.github.com/andrewwongucsd"/>'
+          template: '<head><meta http-equiv="refresh" content="0; URL="http://www.github.com/andrewwongucsd"/></head>'
         }).
         when('/projects/:projectId', {
           template: '<project-detail></project-detail>'
