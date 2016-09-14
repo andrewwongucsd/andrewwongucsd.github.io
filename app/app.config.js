@@ -11,10 +11,13 @@ angular.
         when('/print', {
           template: '<item-list-print></item-list-print>'
         }).
+        when('/redirect', {
+          template: '<meta http-equiv="refresh" content="0; URL="http://www.github.com/andrewwongucsd"/>'
+        }).
         when('/projects/:projectId', {
           template: '<project-detail></project-detail>'
         }).
-        otherwise('/');
+        otherwise('/redirect');
     }
   ]).config(['$mdThemingProvider',function($mdThemingProvider) {
     $mdThemingProvider.theme('dark-teal').backgroundPalette('teal').dark();

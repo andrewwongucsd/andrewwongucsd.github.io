@@ -7,6 +7,11 @@
   },
   "coursework":[
     {
+      "title": "Skills",
+      "decsription": "Proficient in Java, C, SQL, TCP/IP, Windows, UNIX, and LINUX environments,Java Servlet, Javascript, HTML, CSS, Windows, MacOSX, Unix, Linix. Professional: Self-motivated, creative thinker; detail-oriented; excellent time management
+skills.",
+      "visible": true
+    },{
       "title": "Web and Data Mining",
       "decsription": "SQL, Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems.",
       "visible": true
@@ -57,7 +62,7 @@
       "city": "San Jose, CA",
       "major": "M.S. in Software Engineering",
       "date": "2017",
-      "grade": "3.3",
+      "grade": "3.5",
       "concentration": "Networking Software, Network Security, Software Defined Network, Network functions virtualization",
       "visible": true
     }
@@ -78,8 +83,8 @@
   ],"projects":[
     {
       "header": "Floodlight SDN Controller on Mininet",
-      "descriptions": ["Built a network application on SDN or on NFV",
-      "Design, construct, and optimize network architectures by using SDN"],
+      "descriptions": ["Built a network application on SDN",
+      "Designed, constructed, and Optimized network architectures by using SDN"],
       "tool": "Java",
       "image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
       "visible": true
