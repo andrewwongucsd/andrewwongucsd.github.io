@@ -12,7 +12,7 @@ angular.
           template: '<item-list-print></item-list-print>'
         }).
         when('/redirect', {
-          template: '<iframe src="http://www.github.com/andrewwongucsd"/></iframe>'
+          template: '<iframe src=\'https://github.com/andrewwongucsd\'/></iframe>'
         }).
         when('/projects/:projectId', {
           template: '<project-detail></project-detail>'
