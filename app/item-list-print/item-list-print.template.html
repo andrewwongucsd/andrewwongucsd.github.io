@@ -54,11 +54,12 @@
                 <md-icon md-svg-icon="svg/location.svg"></md-icon>{{edu.city}}
                 <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}
                 <md-icon ng-if="edu.grade" md-svg-icon="svg/grade.svg"></md-icon>{{edu.grade}}
+                <md-icon ng-if="edu.concentration" md-svg-icon="svg/focus.svg">{{edu.concentration}}</md-icon>
               </span>
-              <span ng-if="edu.concentration" class="md-caption">
+              <!-- <span ng-if="edu.concentration" class="md-caption">
                 <md-icon md-svg-icon="svg/focus.svg"></md-icon>
                 {{edu.concentration}}
-              </span>
+              </span> -->
             </md-card-title-text>
             <md-card-title-media>
               <div class="md-media-sm card-media image">
