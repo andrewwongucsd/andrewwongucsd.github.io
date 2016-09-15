@@ -70,7 +70,7 @@
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
          <md-card-title class="card-title" ng-if="intern.visible == true" ng-repeat="intern in $ctrl.items.internships">
            <md-card-title-text>
-             <span class="md-subhead coursework_title">{{intern.position}} - {{intern.company}}
+             <span class="md-subhead">{{intern.position}} - <div class="coursework_title">{{intern.company}}</div>
                <br><md-icon md-svg-icon="svg/location.svg"></md-icon>{{intern.place}}
                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{intern.duration}}
              </span>
