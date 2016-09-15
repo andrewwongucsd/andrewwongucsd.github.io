@@ -88,6 +88,13 @@
       "image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
       "visible": true
     },{
+      "header": "Floodlight SDN Controller on Mininet",
+      "descriptions": ["Built a network application on SDN",
+      "Designed, constructed, and Optimized network architectures by using SDN"],
+      "tool": "Java",
+      "image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
+      "visible": true
+    },{
       "header": "Secure TCP Client-Server System",
       "descriptions": ["Designed the implementation of EKE (Encrypted Key Exchange) protocol",
         "Implemented transmitted securely from server to client only after authentication"],

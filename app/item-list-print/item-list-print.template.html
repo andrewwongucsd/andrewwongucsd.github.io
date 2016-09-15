@@ -69,11 +69,11 @@
         </md-card>
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
             <md-card-title class="card-title" layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
-              <md-card-title-media>
+              <!-- <md-card-title-media>
                 <div class="md-media-sm card-media image">
                   <img class="image" ng-src="{{project.image}}"></img>
                 </div>
-              </md-card-title-media>
+              </md-card-title-media> -->
               <md-card-title-text layout="column">
                 <span class="md-subhead">{{project.header}}</span>
                 <span class="md-caption" ng-repeat="desc in project.descriptions">
