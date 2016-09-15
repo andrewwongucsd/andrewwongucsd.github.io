@@ -126,7 +126,7 @@
       "Designed, Implemented, Tested "],
       "tool": "Python, Google datastore, HTML, Javascript, AngularJS",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-      "visible": true
+      "visible": false
     },{
       "header": "Android Places Check-in Timer",
       "descriptions": ["A Google API based app to collect waiting time in a place."],
