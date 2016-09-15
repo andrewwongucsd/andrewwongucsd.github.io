@@ -12,7 +12,7 @@ angular.
           template: '<item-list-print></item-list-print>'
         }).
         when('/redirect', {
-          template: '<script type="text/javascript">window.location.href = "https://github.com/andrewwongucsd";</script>'
+          template: '<redirect></redirect>'
         }).
         when('/projects/:projectId', {
           template: '<project-detail></project-detail>'
