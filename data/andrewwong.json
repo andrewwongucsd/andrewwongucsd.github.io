@@ -113,7 +113,7 @@
       "descriptions": ["Made thread for each connetion", "Implemented feature such as scability, security, session"],
       "tool": "Java",
       "image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-      "visible": false
+      "visible": true
     },{
       "header": "Automatic Class Attendance System",
       "descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
@@ -126,7 +126,7 @@
       "Designed, Implemented, Tested "],
       "tool": "Python, Google datastore, HTML, Javascript, AngularJS",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-      "visible": false
+      "visible": true
     },{
       "header": "Android Places Check-in Timer",
       "descriptions": ["A Google API based app to collect waiting time in a place."],
