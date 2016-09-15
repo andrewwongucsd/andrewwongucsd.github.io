@@ -2,6 +2,10 @@
   background-color: #e6f0ff;
 }
 
+md-card md-card-title md-card-title-text:only-child .md-subhead{
+  padding-top: 0px;
+}
+
 @media screen and (min-width: 1420px){
   .border {
     max-width:70%;
