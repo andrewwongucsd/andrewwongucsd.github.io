@@ -68,6 +68,25 @@
           </md-card-title>
         </md-card>
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
+         <md-card-title class="card-title" ng-if="intern.visible == true" ng-repeat="intern in $ctrl.items.internships">
+           <md-card-title-text>
+             <span class="md-subhead">{{intern.position}} - {{intern.company}}
+               <br><md-icon md-svg-icon="svg/location.svg"></md-icon>{{intern.place}}
+               <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{intern.duration}}
+             </span>
+             <span class="md-caption" ng-repeat="desc in intern.descriptions">
+               ‣ {{desc}}
+             </span>
+             <span class="md-caption tool">{{intern.technology}}</span>
+           </md-card-title-text>
+           <md-card-title-media>
+             <div class="md-media-sm card-media image">
+               <img style="border-radius: 100px; zoom: 90%;" ng-src="{{intern.image}}"></img>
+             </div>
+           </md-card-title-media>
+         </md-card-title>
+       </md-card>
+        <md-card class="namecard" md-theme="default" md-theme-watch="" >
             <md-card-title class="card-title" layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
               <!-- <md-card-title-media>
                 <div class="md-media-sm card-media image">
@@ -83,25 +102,6 @@
               </md-card-title-text>
             </md-card-title>
           <!-- </md-button> -->
-        </md-card>
-         <md-card class="namecard" md-theme="default" md-theme-watch="" >
-          <md-card-title class="card-title" ng-if="intern.visible == true" ng-repeat="intern in $ctrl.items.internships">
-            <md-card-title-text>
-              <span class="md-subhead">{{intern.position}} - {{intern.company}}
-                <br><md-icon md-svg-icon="svg/location.svg"></md-icon>{{intern.place}}
-                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{intern.duration}}
-              </span>
-              <span class="md-caption" ng-repeat="desc in intern.descriptions">
-                ‣ {{desc}}
-              </span>
-              <span class="md-caption tool">{{intern.technology}}</span>
-            </md-card-title-text>
-            <md-card-title-media>
-              <div class="md-media-sm card-media image">
-                <img style="border-radius: 100px; zoom: 90%;" ng-src="{{intern.image}}"></img>
-              </div>
-            </md-card-title-media>
-          </md-card-title>
         </md-card>
       </div>
     </md-content>
