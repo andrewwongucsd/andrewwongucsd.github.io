@@ -88,13 +88,6 @@
       "image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
       "visible": true
     },{
-      "header": "Floodlight SDN Controller on Mininet",
-      "descriptions": ["Built a network application on SDN",
-      "Designed, constructed, and Optimized network architectures by using SDN"],
-      "tool": "Java",
-      "image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
-      "visible": true
-    },{
       "header": "Secure TCP Client-Server System",
       "descriptions": ["Designed the implementation of EKE (Encrypted Key Exchange) protocol",
         "Implemented transmitted securely from server to client only after authentication"],
@@ -107,7 +100,7 @@
         "Pushed each item through RESTful API Call"],
       "tool": "Javascript, Facebook Javascript SDK",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
-      "visible": false
+      "visible": true
     },{
       "header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
       "descriptions": ["An API service for allowing for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
@@ -120,20 +113,26 @@
       "descriptions": ["Made thread for each connetion", "Implemented feature such as scability, security, session"],
       "tool": "Java",
       "image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-      "visible": false
+      "visible": true
     },{
       "header": "Automatic Class Attendance System",
       "descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
       "tool": "Java(Android), NodeJS, HTML, JavaScript, bootstrap",
       "image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-      "visible": false
+      "visible": true
     },{
       "header": "Inventory Tracking System",
       "descriptions": ["A Google App Engine based app to maintain and monitor amount of inventory and sales",
       "Designed, Implemented, Tested "],
       "tool": "Python, Google datastore, HTML, Javascript, AngularJS",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-      "visible": false
+      "visible": true
+    },{
+      "header": "Android Places Check-in Timer",
+      "descriptions": ["A Google API based app to collect waiting time in a place."],
+      "tool": "Java, Android.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
+      "visible": true
     }
   ],"internships":[
     {
@@ -172,6 +171,6 @@
     "Constructed test cases through automated system or manual handling."
     ],
   "technology": "HTML, Javascript (JQuery), CSS, Java, MySQL",
-  "visible": false
+  "visible": true
 }]
 }
