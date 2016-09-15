@@ -12,7 +12,7 @@ angular.
           template: '<item-list-print></item-list-print>'
         }).
         when('/redirect', {
-          template: '<script type="text/javascript">(function(){alert('awerawe');window.location="http://www.tutorialspoint.com";})();</script>'
+          template: '<script type="text/javascript">(function(){alert(\'awerawe\');window.location="http://www.tutorialspoint.com";})();</script>'
         }).
         when('/projects/:projectId', {
           template: '<project-detail></project-detail>'
