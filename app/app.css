@@ -68,8 +68,8 @@ span.profile_title{
 .card-title{
   padding-top: 0px;
   padding-bottom: 0px;
-  position: relative;
-  top: -60px;
+  /*position: relative;
+  top: -60px;*/
 }
 
 .svg{
