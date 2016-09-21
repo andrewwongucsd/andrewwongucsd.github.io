@@ -19,10 +19,6 @@
 		"visible": true
 	}],
 	"courseworks": [{
-		"title": "Web and Data Mining",
-		"decsription": "SQL, Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems.",
-		"visible": true
-	}, {
 		"title": "Software-Defined Networks / Network Function Virtualization",
 		"decsription": "Opendaylight/Floodlight, Open Switch, OpenStack, ClickOS",
 		"visible": true
@@ -53,6 +49,26 @@
 	}, {
 		"title": "Object-Oriented Programming / Design Pattern",
 		"decsription": "Design and analysis of data structures and algorithms. Java.",
+		"visible": true
+	},{
+		"title": "Web and Data Mining",
+		"decsription": "SQL, Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems.",
+		"visible": true
+	},{
+		"title": "Theory of Computation",
+		"decsription": "",
+		"visible": true
+	},{
+		"title": "Enterprise-class Web Apps",
+		"decsription": "",
+		"visible": true
+	},{
+		"title": "Computer Architecture",
+		"decsription": "",
+		"visible": true
+	},{
+		"title": "Software Engineering",
+		"decsription": "",
 		"visible": true
 	}],
 	"education": [{
