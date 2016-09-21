@@ -21,7 +21,7 @@
 }
 .namecard h3{
   font-size: 16px;
-  position: absolute;
+  position: relative;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   -webkit-transform-origin: 0% 0%;
@@ -68,6 +68,8 @@ span.profile_title{
 .card-title{
   padding-top: 0px;
   padding-bottom: 0px;
+  position: relative;
+  top: -40px;
 }
 
 .svg{
