@@ -27,12 +27,12 @@
   -webkit-transform-origin: 0% 0%;
   -ms-transform-origin: 0% 0%;
   transform-origin: 0% 0%;
-  color: #fff;
+  /* color: #fff; */
   left: 100%;
   letter-spacing: 1px;
   margin: 12px 0;
-  opacity: 0.8;
-  padding: 6px 40px 0 0;
+  /*opacity: 0.8;*/
+  padding: 12px 40px 0 0;
   right: 0;
   text-transform: uppercase;
   top: 0;

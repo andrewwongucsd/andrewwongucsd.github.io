@@ -76,6 +76,7 @@
           </md-card-title>
         </md-card>
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
+          <h3>Experience</h3>
          <md-card-title class="card-title" ng-if="intern.visible == true" ng-repeat="intern in $ctrl.items.internships">
            <md-card-title-text>
              <span class="md-subhead" style="padding-top: 0px;">{{intern.position}} - {{intern.company}}
@@ -95,21 +96,21 @@
          </md-card-title>
        </md-card>
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
-            <md-card-title class="card-title" layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
-              <!-- <md-card-title-media>
-                <div class="md-media-sm card-media image">
-                  <img class="image" ng-src="{{project.image}}"></img>
-                </div>
-              </md-card-title-media> -->
-              <md-card-title-text layout="column">
-                <span class="md-subhead coursework_title" style="padding-top: 0px;">{{project.header}}</span>
-                <span class="md-caption" ng-repeat="desc in project.descriptions">
-                  ‣ {{desc}}
-                </span>
-                <span class="md-caption tool">{{project.tool}}</span>
-              </md-card-title-text>
-            </md-card-title>
-          <!-- </md-button> -->
+          <h3>projects</h3>
+          <md-card-title class="card-title" layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
+            <!-- <md-card-title-media>
+              <div class="md-media-sm card-media image">
+                <img class="image" ng-src="{{project.image}}"></img>
+              </div>
+            </md-card-title-media> -->
+            <md-card-title-text layout="column">
+              <span class="md-subhead coursework_title" style="padding-top: 0px;">{{project.header}}</span>
+              <span class="md-caption" ng-repeat="desc in project.descriptions">
+                ‣ {{desc}}
+              </span>
+              <span class="md-caption tool">{{project.tool}}</span>
+            </md-card-title-text>
+          </md-card-title>
         </md-card>
       </div>
     </md-content>
