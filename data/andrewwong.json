@@ -79,8 +79,8 @@
 	}],
 	"projects": [{
 		"header": "Floodlight SDN Controller on Mininet",
-		"descriptions": ["Built a network application on SDN",
-			"Designed, constructed, and Optimized network architectures by using SDN"
+		"descriptions": ["Built a network application on SDN (Load Balancer, Rules on Flow Table)",
+			"Designed, constructed, and Optimized network topology by using SDN",
 		],
 		"tool": "Java",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
@@ -94,7 +94,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
 		"visible": true
 	}, {
-		"header": "Facebook Page Publishing Automation",
+		"header": "Facebook Page Publishing Automation WebAPP",
 		"descriptions": ["Designed and Implemented code parser which Compiles input into array",
 			"Pushed each item through RESTful API Call"
 		],
@@ -120,7 +120,7 @@
 		"descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
 		"tool": "Java(Android), NodeJS, HTML, JavaScript, bootstrap",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": true
+		"visible": false
 	}, {
 		"header": "Inventory Tracking System",
 		"descriptions": ["A Google App Engine based app to maintain and monitor amount of inventory and sales",
