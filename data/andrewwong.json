@@ -80,7 +80,7 @@
 	"projects": [{
 		"header": "Floodlight SDN Controller on Mininet",
 		"descriptions": ["Built a network application on SDN (Load Balancer, Rules on Flow Table)",
-			"Designed, constructed, and Optimized network topology by using SDN",
+			"Designed, constructed, and Optimized network topology by using SDN"
 		],
 		"tool": "Java",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
