@@ -7,13 +7,13 @@
 	},
 	"skills": [{
 		"title": "Proficient in",
-		"decsription": "Java (Servlet), Python, JavaScript, TCP/IP,",
+		"decsription": "Java (Servlet), Python, JavaScript, TCP/IP, HTML",
 		"visible": true
-	},{
+	}, {
 		"title": "Familiar with",
-		"decsription": "C, SQL, ",
+		"decsription": "C, SQL, Go, Node.js, Swift (iOS Development), CSS, Boostrap",
 		"visible": true
-	}{
+	}, {
 		"title": "Tools",
 		"decsription": "Windows, MacOSX, UNIX, and LINUX environments. GitHub, HTTP, Web Development, Bash Scripting, Google App Engine, Agile/Scrum, Eclipse, Atom IDE",
 		"visible": true
@@ -155,7 +155,7 @@
 		"visible": true
 	}, {
 		"company": "HSBC (Hang Seng Bank)",
-		"position": "Software Engineer ",
+		"position": "Software Engineer ",
 		"duration": "May 2013 – March 2014",
 		"image": "http://mediad.publicbroadcasting.net/p/wdde/files/201602/HSBC-logo.png",
 		"place": "Hong Kong",
