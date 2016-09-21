@@ -50,7 +50,7 @@
       </div>
       <div flex-xs="65" flex-gt-xs="70" layout="column">
         <md-card class="namecard" md-theme="default" md-theme-watch="">
-          <h3>education</h3>
+          <!-- <h3>education</h3> -->
           <md-card-title class="card-title" layout="row" ng-if="edu.visible == true" ng-repeat="edu in $ctrl.items.education">
             <md-card-title-text>
               <span class="md-subhead" style="color:black; font-weight: bold;">
@@ -76,7 +76,7 @@
           </md-card-title>
         </md-card>
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
-          <h3>Experience</h3>
+          <!-- <h3>Experience</h3> -->
          <md-card-title class="card-title" ng-if="intern.visible == true" ng-repeat="intern in $ctrl.items.internships">
            <md-card-title-text>
              <span class="md-subhead" style="padding-top: 0px;">{{intern.position}} - {{intern.company}}
@@ -96,7 +96,7 @@
          </md-card-title>
        </md-card>
         <md-card class="namecard" md-theme="default" md-theme-watch="" >
-          <h3>projects</h3>
+          <!-- <h3>projects</h3> -->
           <md-card-title class="card-title" layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
             <!-- <md-card-title-media>
               <div class="md-media-sm card-media image">
