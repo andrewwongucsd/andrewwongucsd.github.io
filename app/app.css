@@ -72,10 +72,6 @@ span.profile_title{
   top: -60px;
 }
 
-.card-title:nth-child(odd){
-  margin-top: 10px;
-}
-
 .svg{
   height: 15px;
   width: 15px;
