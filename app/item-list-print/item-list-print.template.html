@@ -44,7 +44,7 @@
         <md-card class="namecard" md-theme="dark-blue" md-theme-watch="">
           <md-card-title class="coursework" class="card-title" layout="column" layout-align="none none" ng-if="skill.visible == true" ng-repeat="skill in $ctrl.items.skills">
             <span class="md-caption coursework_title">{{skill.title}}</span>
-            <span class="md-caption" ng-if="work.decsription">{{skill.decsription}}</span>
+            <span class="md-caption" ng-if="skill.decsription">{{skill.decsription}}</span>
           </md-card-title>
         </md-card>
       </div>
