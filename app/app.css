@@ -69,10 +69,10 @@ span.profile_title{
   padding-top: 0px;
   padding-bottom: 0px;
   position: relative;
-  top: -40px;
+  top: -60px;
 }
 
-.card-title:nth-child(even){
+.card-title:nth-child(odd){
   margin-top: 10px;
 }
 
