@@ -7,7 +7,7 @@
 	},
 	"skills": [{
 		"title": "Proficient in",
-		"decsription": "Java (Servlet), Python, JavaScript, TCP/IP, HTML",
+		"decsription": "Java (Servlet), Python, JavaScript (AngularJS, JQuery), TCP/IP, HTML",
 		"visible": true
 	}, {
 		"title": "Familiar with",
