@@ -51,7 +51,7 @@
 		"decsription": "Design and analysis of data structures and algorithms. Java.",
 		"visible": true
 	},{
-		"title": "Web and Data Mining",
+		"title": "Web and Data Mining (Hadoop, Machine Learning, Distributed File System)",
 		"decsription": "SQL, Data preprocessing, association rules and sequential patterns, classification, clustering, recommender systems.",
 		"visible": true
 	},{
