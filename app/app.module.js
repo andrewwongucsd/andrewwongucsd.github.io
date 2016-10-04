@@ -2,7 +2,7 @@
 angular.module('resumeApp', [
   'ngRoute',
   'itemList',
-  'itemListPrint',
+  'itemListFrontend','itemListBackend',
   'redirect',
   'ngMaterial'
 ]);
