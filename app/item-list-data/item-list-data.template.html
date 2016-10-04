@@ -1,0 +1,118 @@
+
+<div>
+  <div class="carddemoBasicUsage" ng-cloak="">
+    <md-content layout="row" layout-xs="row">
+      <div flex-xs="35" flex-gt-xs="30" layout="column">
+        <!-- <md-card md-theme="dark-blue" layout-xs="column" md-theme-watch="" layout-align="center center">
+          <md-card-title>
+            <md-radio-group layout="row" layout-align="center center">
+              <div ng-repeat='model in $ctrl.items.profile.models'>
+                <md-radio-button ng-value="model" class="md-caption" >
+                  {{model}}
+                </md-radio-button>
+                <md-button onclick="s(this)" class="radio">{{model}}</md-button>
+              </div>
+            </md-radio-group>
+          </md-card-title>
+        </md-card> -->
+        <md-card class="namecard" layout-xs="column" md-theme="dark-blue" md-theme-watch="" layout-align="center center">
+          <md-card-title>
+            <!-- <md-card-title-media>
+              <div class="md-media-md card-media rcorners1">
+                <img class="md-media-md card-media profile_picture" style=""
+                ng-src="{{$ctrl.items.profile.picture}}"/>
+              </div>
+            </md-card-title-media> -->
+            <md-card-title-text>
+              <span class="md-headline profile_name">{{$ctrl.items.profile.name}}</span>
+              <span class="profile_title">{{$ctrl.items.profile.title}}</span>
+            </md-card-title-text>
+          </md-card-title>
+          <md-card-actions layout="column" layout-align="start start" md-theme="dark-blue">
+            <md-card-title-text layout="row" layout-align="none none" ng-repeat="each in $ctrl.items.connection">
+              <md-icon class="svg" style="" md-svg-icon="{{each.image}}"></md-icon>
+              <span class="md-body-2">{{each.info}}</span>
+            </md-card-title-text>
+          </md-card-actions>
+        </md-card>
+        <md-card class="namecard" md-theme="dark-blue" md-theme-watch="">
+          <md-card-title class="coursework" class="card-title" layout="column" layout-align="none none" ng-if="coursework.visible == true" ng-repeat="coursework in $ctrl.items.courseworks">
+            <span class="md-caption">{{coursework.title}}</span>
+            <!-- <span class="md-caption" ng-if="work.decsription">{{work.decsription}}</span> -->
+          </md-card-title>
+        </md-card>
+        <md-card class="namecard" md-theme="dark-blue" md-theme-watch="">
+          <md-card-title class="coursework" class="card-title" layout="column" layout-align="none none" ng-if="skill.visible == true" ng-repeat="skill in $ctrl.items.skills">
+            <span class="md-caption coursework_title">{{skill.title}}</span>
+            <span class="md-caption" ng-if="skill.decsription">{{skill.decsription}}</span>
+          </md-card-title>
+        </md-card>
+      </div>
+      <div flex-xs="65" flex-gt-xs="70" layout="column">
+        <md-card class="namecard" md-theme="default" md-theme-watch="">
+          <!-- <h3>education</h3> -->
+          <md-card-title class="card-title" layout="row" ng-if="edu.visible == true" ng-repeat="edu in $ctrl.items.education">
+            <md-card-title-text>
+              <span class="md-subhead" style="color:black; font-weight: bold;">
+                <md-icon md-svg-icon="svg/school.svg"></md-icon>{{edu.school}}
+              </span>
+              <span class="md-body-1">
+                <md-icon md-svg-icon="svg/class.svg"></md-icon>{{edu.major}}
+                <md-icon md-svg-icon="svg/location.svg"></md-icon>{{edu.city}}
+                <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{edu.date}}
+                <md-icon ng-if="edu.grade" md-svg-icon="svg/grade.svg"></md-icon>{{edu.grade}}
+                <md-icon ng-if="edu.concentration" md-svg-icon="svg/focus.svg"></md-icon>{{edu.concentration}}
+              </span>
+              <!-- <span ng-if="edu.concentration" class="md-caption">
+                <md-icon md-svg-icon="svg/focus.svg"></md-icon>
+                {{edu.concentration}}
+              </span> -->
+            </md-card-title-text>
+            <md-card-title-media>
+              <div class="md-media-sm card-media image">
+                <img ng-src="{{edu.image}}"></img>
+              </div>
+            </md-card-title-media>
+          </md-card-title>
+        </md-card>
+        <md-card class="namecard" md-theme="dark-blue" md-theme-watch="" >
+          <!-- <h3>Experience</h3> -->
+         <md-card-title class="card-title coursework" ng-if="intern.visible == true" ng-repeat="intern in $ctrl.items.internships">
+           <md-card-title-text>
+             <span class="md-subhead" style="padding-top: 0px;">{{intern.position}} - {{intern.company}}
+               <br><md-icon md-svg-icon="svg/location.svg"></md-icon>{{intern.place}}
+               <md-icon md-svg-icon="svg/datetime.svg"></md-icon>{{intern.duration}}
+             </span>
+             <span class="md-caption" ng-repeat="desc in intern.descriptions">
+               ‣ {{desc}}
+             </span>
+             <span class="md-caption tool">{{intern.technology}}</span>
+           </md-card-title-text>
+           <!-- <md-card-title-media>
+             <div class="md-media-sm card-media image">
+               <img style="border-radius: 100px; zoom: 90%;" ng-src="{{intern.image}}"></img>
+             </div>
+           </md-card-title-media> -->
+         </md-card-title>
+       </md-card>
+        <md-card class="namecard" md-theme="dark-blue" md-theme-watch="" >
+          <!-- <h3>projects</h3> -->
+          <md-card-title class="card-title coursework" layout="row" layout-align="start start" ng-if="project.visible == true" ng-repeat="project in $ctrl.items.projects">
+            <!-- <md-card-title-media>
+              <div class="md-media-sm card-media image">
+                <img class="image" ng-src="{{project.image}}"></img>
+              </div>
+            </md-card-title-media> -->
+            <md-card-title-text layout="column">
+              <span class="md-subhead coursework_title" style="padding-top: 0px;">{{project.header}}</span>
+              <span class="md-caption" ng-repeat="desc in project.descriptions">
+                ‣ {{desc}}
+              </span>
+              <span class="md-caption tool">{{project.tool}}</span>
+            </md-card-title-text>
+          </md-card-title>
+        </md-card>
+      </div>
+    </md-content>
+  </div>
+</div>

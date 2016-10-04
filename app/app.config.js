@@ -14,6 +14,9 @@ angular.
         when('/backend', {
           template: '<item-list-backend></item-list-backend>'
         }).
+        when('/data', {
+          template: '<item-list-data></item-list-data>'
+        }).
         when('/redirect', {
           template: '<redirect></redirect>'
         }).
