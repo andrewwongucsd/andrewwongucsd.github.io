@@ -8,8 +8,11 @@ angular.
         when('/resume', {
           template: '<item-list></item-list>'
         }).
-        when('/print', {
-          template: '<item-list-print></item-list-print>'
+        when('/frontend', {
+          template: '<item-list-frontend></item-list-frontend>'
+        }).
+        when('/backend', {
+          template: '<item-list-backend></item-list-backend>'
         }).
         when('/redirect', {
           template: '<redirect></redirect>'
