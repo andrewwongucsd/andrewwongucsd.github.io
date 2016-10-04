@@ -7,7 +7,7 @@
 	},
 	"skills": [{
 		"title": "Proficient in",
-		"decsription": "Java (Servlet), Python, JavaScript (AngularJS, JQuery), TCP/IP, HTML",
+		"decsription": "Java (Servlet), Python, JavaScript (AngularJS, JQuery), TCP/IP, HTML, MVC (Model View Controller)",
 		"visible": true
 	}, {
 		"title": "Familiar with",
