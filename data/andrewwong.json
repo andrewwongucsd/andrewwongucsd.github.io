@@ -19,15 +19,15 @@
 		"visible": true
 	},{
 		"title": "Activities",
-		"description": "Software and Computer Engineering Society Event Organizer, IEEE Member Participant",
+		"decsription": "Software and Computer Engineering Society Event Organizer, IEEE Member Participant",
 		"visible": true
 	},{
 		"title": "Languages",
-		"description": "Proficient in Cantonese and Chinese",
+		"decsription": "Proficient in Cantonese and Chinese",
 		"visible": true
 	},{
 		"title": "Personal Interests",
-		"description": "Swimming, Social Activist focus on Democracy Advancement",
+		"decsription": "Swimming, Social Activist focus on Democracy Advancement",
 		"visible": true
 	}],
 	"courseworks": [{
