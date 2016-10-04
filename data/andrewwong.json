@@ -102,13 +102,21 @@
 		"info": "+1 415 787 2881"
 	}],
 	"projects": [{
-		"header": "Floodlight SDN Controller on Mininet",
-		"descriptions": ["Built a network application on SDN (Load Balancer, Rules on Flow Table)",
-			"Designed, constructed, and Optimized network topology by using SDN"
+		"header": "Asynchronous Video Streaming System via Netty.io",
+		"descriptions": ["Desinging a ring topology for Consistent Hash that minimize overhead of scaling out/in",
+			"Utilizing seamless transaction with help of Netty.io"
 		],
 		"tool": "Java",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
-		"visible": false
+		"visible": true
+	},{
+		"header": "Firewall and Load Balancer on Floodlight + Mininet",
+		"descriptions": ["Developing a firewall/Load Balancer application that runs over an OpenFlow-based SDN controller",
+			"Creating SDN network topology by using VirtualBox and Mininet."
+		],
+		"tool": "Java",
+		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
+		"visible": true
 	}, {
 		"header": "Secure TCP Client-Server System",
 		"descriptions": ["Designed the implementation of EKE (Encrypted Key Exchange) protocol",
@@ -182,7 +190,7 @@
 			"Analyzed reported bugs and troubleshot them by providing solutions to resolve issues."
 		],
 		"technology": "HTML, Javascript (JQuery), CSS, Java",
-		"visible": true
+		"visible": false
 	}, {
 		"company": "PCCW Solutions",
 		"position": "Solution Developer (Full Stack Developer)",
