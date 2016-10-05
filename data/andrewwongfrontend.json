@@ -123,7 +123,7 @@
 		"descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
 		"tool": "Java(Android), NodeJS, HTML, JavaScript, bootstrap",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": false
+		"visible": true
 	}, {
 		"header": "Inventory Tracking System",
 		"descriptions": ["A Google App Engine based app to maintain and monitor amount of inventory and sales",
@@ -161,7 +161,7 @@
 		],
 		"tool": "Python, Encrypted Key Exchange, Authentication",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-		"visible": true
+		"visible": false
 	},  {
 		"header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
 		"descriptions": ["An API service for allowing for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
@@ -175,7 +175,7 @@
 		"descriptions": ["Made thread for each connetion", "Implemented feature such as scability, security, session"],
 		"tool": "Java, TCP/IP, Binding",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": true
+		"visible": false
 	}],
 	"internships": [{
 		"company": "Accenture",
