@@ -145,7 +145,7 @@
 		],
 		"tool": "Java, Netty.io, Consistent Hash",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
-		"visible": true
+		"visible": false
 	},{
 		"header": "Firewall and Load Balancer on Floodlight + Mininet",
 		"descriptions": ["Developing a firewall/Load Balancer application that runs over an OpenFlow-based SDN controller",
@@ -153,7 +153,7 @@
 		],
 		"tool": "Java, Floodlight, Mininet, Firewall, Load Balancer, Software-Defined Network (SDN)",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
-		"visible": true
+		"visible": false
 	}, {
 		"header": "Secure TCP Client-Server System",
 		"descriptions": ["Designed the implementation of EKE (Encrypted Key Exchange) protocol",
@@ -169,7 +169,7 @@
 		],
 		"tool": "Golang, TOML, RPC (Remote Procedure Call)",
 		"image": "https://camo.githubusercontent.com/98ed65187a84ecf897273d9fa18118ce45845057/68747470733a2f2f7261772e6769746875622e636f6d2f676f6c616e672d73616d706c65732f676f706865722d766563746f722f6d61737465722f676f706865722e706e67",
-		"visible": true
+		"visible": false
 	}, {
 		"header": "TCP / UDP Socket Programming Web Server and Client",
 		"descriptions": ["Made thread for each connetion", "Implemented feature such as scability, security, session"],
@@ -199,7 +199,7 @@
 			"Analyzed reported bugs and troubleshot them by providing solutions to resolve issues."
 		],
 		"technology": "HTML, Javascript (JQuery), CSS, Java",
-		"visible": false
+		"visible": true
 	}, {
 		"company": "PCCW Solutions",
 		"position": "Solution Developer (Full Stack Developer)",
@@ -213,6 +213,6 @@
 			"Constructed test cases through automated system or manual handling."
 		],
 		"technology": "HTML, Javascript (JQuery), CSS, Java, MySQL",
-		"visible": false
+		"visible": true
 	}]
 }
