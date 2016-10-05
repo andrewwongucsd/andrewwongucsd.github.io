@@ -213,6 +213,6 @@
 			"Constructed test cases through automated system or manual handling."
 		],
 		"technology": "HTML, Javascript (JQuery), CSS, Java, MySQL",
-		"visible": true
+		"visible": false
 	}]
 }
