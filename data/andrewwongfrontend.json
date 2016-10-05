@@ -111,6 +111,34 @@
 		"info": "+1 415 787 2881"
 	}],
 	"projects": [{
+		"header": "Facebook Page Publishing Automation WebAPP",
+		"descriptions": ["Designed and Implemented code parser which Compiles input into array",
+			"Pushed each item through RESTful API Call"
+		],
+		"tool": "Javascript, Facebook Javascript SDK, REST API",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
+		"visible": true
+	},{
+		"header": "Automatic Class Attendance System",
+		"descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
+		"tool": "Java(Android), NodeJS, HTML, JavaScript, bootstrap",
+		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
+		"visible": false
+	}, {
+		"header": "Inventory Tracking System",
+		"descriptions": ["A Google App Engine based app to maintain and monitor amount of inventory and sales",
+			"Designed, Implemented, Tested "
+		],
+		"tool": "Python, Google datastore, HTML, Javascript, AngularJS",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
+		"visible": true
+	}, {
+		"header": "Android Places Check-in Timer",
+		"descriptions": ["A Google Places API based app to collect waiting time in a place."],
+		"tool": "Java, Android, Google Places API, Google datastore",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
+		"visible": true
+	},{
 		"header": "Asynchronous Video Streaming System via Netty.io",
 		"descriptions": ["Designing a ring topology for Consistent Hash that minimize overhead of scaling out/in",
 			"Utilizing seamless transaction with the help of Netty.io"
@@ -134,15 +162,7 @@
 		"tool": "Python, Encrypted Key Exchange, Authentication",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
 		"visible": true
-	}, {
-		"header": "Facebook Page Publishing Automation WebAPP",
-		"descriptions": ["Designed and Implemented code parser which Compiles input into array",
-			"Pushed each item through RESTful API Call"
-		],
-		"tool": "Javascript, Facebook Javascript SDK, REST API",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
-		"visible": true
-	}, {
+	},  {
 		"header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
 		"descriptions": ["An API service for allowing for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
 			"Implemented and Designed the routine to take calls and commands nodes through RPC."
@@ -155,26 +175,6 @@
 		"descriptions": ["Made thread for each connetion", "Implemented feature such as scability, security, session"],
 		"tool": "Java, TCP/IP, Binding",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": true
-	}, {
-		"header": "Automatic Class Attendance System",
-		"descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
-		"tool": "Java(Android), NodeJS, HTML, JavaScript, bootstrap",
-		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": false
-	}, {
-		"header": "Inventory Tracking System",
-		"descriptions": ["A Google App Engine based app to maintain and monitor amount of inventory and sales",
-			"Designed, Implemented, Tested "
-		],
-		"tool": "Python, Google datastore, HTML, Javascript, AngularJS",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-		"visible": true
-	}, {
-		"header": "Android Places Check-in Timer",
-		"descriptions": ["A Google Places API based app to collect waiting time in a place."],
-		"tool": "Java, Android, Google Places API, Google datastore",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
 		"visible": true
 	}],
 	"internships": [{
