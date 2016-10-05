@@ -145,7 +145,7 @@
 		],
 		"tool": "Java, Netty.io, Consistent Hash",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
-		"visible": false
+		"visible": true
 	},{
 		"header": "Firewall and Load Balancer on Floodlight + Mininet",
 		"descriptions": ["Developing a firewall/Load Balancer application that runs over an OpenFlow-based SDN controller",
@@ -161,7 +161,7 @@
 		],
 		"tool": "Python, Encrypted Key Exchange, Authentication",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-		"visible": false
+		"visible": true
 	},  {
 		"header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
 		"descriptions": ["An API service for allowing for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
