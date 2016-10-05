@@ -112,6 +112,13 @@
 		"info": "+1 415 787 2881"
 	}],
 	"projects": [{
+		"header": "Parity and Divisibility Test (AVL Tree C++)",
+		"descriptions": ["Implemented AVL Tree in C++. Time Complixity: O(log(n))"
+		],
+		"tool": "C++, AVL Tree",
+		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
+		"visible": true
+	},{
 		"header": "Asynchronous Video Streaming System via Netty.io",
 		"descriptions": ["Designing a ring topology for Consistent Hash that minimize overhead of scaling out/in",
 			"Utilizing seamless transaction with the help of Netty.io"
