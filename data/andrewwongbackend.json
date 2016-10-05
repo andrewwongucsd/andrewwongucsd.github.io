@@ -163,7 +163,7 @@
 		"descriptions": ["Made thread for each connetion", "Implemented feature such as scability, security, session"],
 		"tool": "Java, TCP/IP, Binding",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": true
+		"visible": false
 	}, {
 		"header": "Automatic Class Attendance System",
 		"descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
