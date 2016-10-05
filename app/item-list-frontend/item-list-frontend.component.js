@@ -5,7 +5,7 @@ angular.
     templateUrl: 'app/item-list-frontend/item-list-frontend.template.html',
     controller: ['$http',function ItemListController($http) {
       var self = this;
-      $http.get('data/andrewwongweb.json').then(function(response){
+      $http.get('data/andrewwongfrontend.json').then(function(response){
         self.items = response.data;
       });
     }]
