@@ -7,9 +7,9 @@
 		"title": "Proficient technical skills",
 		"decsription": "JavaSE , JavaScript, TCP/IP, HTML, MVC (Model View Controller)",
 		"visible": true
-	}, {
+	},{
 		"title": "Familiar with",
-		"decsription": "C, Python, Java (Servlet, JSP), SQL, Go, JavaScript (AngularJS, JQuery),Swift (iOS Development), CSS, Bootstrap, Java(Android), NodeJS, Google datastore, Facebook Javascript SDK, Hadoop, Machine Learning, Distributed File System, Maven, Ant, Git, JSON, REST APIs, XML, Spring, Hibernate, Oracle Database, MongoDB, Netty.io, Google Places API, Consistent Hash, Shell, Bash",
+		"decsription": "C, Python, Java (Servlet, JSP) SQL, Go, JavaScript (AngularJS, JQuery), CSS, Bootstrap Framework, Java(Android), NodeJS, Google datastore, Facebook, JavaScript SDK, Distributed File System, Maven, Ant, Git, JSON, REST APIs, XML, Spring, Hibernate, Oracle Database, MongoDB, Netty.io, Google Places API, Consistent Hash, CDN, SSH, DNS",
 		"visible": true
 	}, {
 		"title": "Tools",
