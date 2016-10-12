@@ -9,11 +9,11 @@
 		"visible": true
 	}, {
 		"title": "Familiar with",
-		"decsription": "C,Python,Java (Servlet, JSP) SQL, Go, JavaScript (AngularJS, JQuery),Swift (iOS Development), CSS, Bootstrap, Java(Android), NodeJS, Google datastore, Facebook Javascript SDK, Hadoop, Machine Learning, Distributed File System, Maven, Ant, Git, JSON, REST APIs, XML, Spring, Hibernate, Oracle Database, MongoDB, Netty.io, Google Places API, Consistent Hash ",
+		"decsription": "C,Python,Java (Servlet, JSP) SQL, Go, JavaScript (AngularJS, JQuery),Swift (iOS Development), CSS, Bootstrap, Java(Android), NodeJS, Google datastore, Facebook Javascript SDK, Hadoop, Machine Learning, Distributed File System, Maven, Ant, Git, JSON, REST APIs, XML, Spring, Hibernate, Oracle Database, MongoDB, Netty.io, Google Places API, Consistent Hash, Shell, Bash",
 		"visible": true
 	}, {
 		"title": "Tools",
-		"decsription": "Windows, MacOSX, UNIX, and LINUX environments. GitHub, HTTP, Web Development, Bash Scripting, Google App Engine, Agile/Scrum, Eclipse, Atom IDE",
+		"decsription": "Windows, MacOSX, UNIX, LINUX, GitHub, HTTP, Web Development, Bash Scripting, Google App Engine, Agile/Scrum, Eclipse, Atom IDE",
 		"visible": true
 	},{
 		"title": "Activities",
@@ -144,15 +144,16 @@
 		"visible": true
 	}, {
 		"header": "Facebook Page Publishing Automation WebAPP",
-		"descriptions": ["Designed and Implemented code parser which Compiles input into array",
-			"Pushed each item through RESTful API Call"
+		"descriptions": ["Designed and Implemented code parser for deserialization in pure JavaScript",
+			"Pushed each object through RESTful API to Facebook"
 		],
 		"tool": "Javascript, Facebook Javascript SDK, REST API",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
 		"visible": true
 	}, {
 		"header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
-		"descriptions": ["An API service for allowing for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
+		"descriptions": ["Allowed for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion
+",
 			"Implemented and Designed the routine to take calls and commands nodes through RPC."
 		],
 		"tool": "Golang, TOML, RPC (Remote Procedure Call)",
@@ -160,8 +161,9 @@
 		"visible": true
 	}, {
 		"header": "TCP / UDP Socket Programming Web Server and Client",
-		"descriptions": ["Made thread for each connetion", "Implemented feature such as scability, security, session"],
-		"tool": "Java, TCP/IP, Binding",
+		"descriptions": ["Created multi-threading for each connection for TCP or each message for UDP
+", "Allowed inter-process communication through technology such as Pipes, Message queues, Shared Memory"],
+		"tool": "Java, TCP/IP, Binding, IRC (Interprocess Communciation)",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
 		"visible": false
 	}, {
