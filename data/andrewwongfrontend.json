@@ -118,15 +118,7 @@
 		"tool": "Javascript, Facebook Javascript SDK, REST API",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
 		"visible": true
-	}, {
-		"header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
-		"descriptions": ["Allowed for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
-			"Implemented and Designed the routine to take calls and commands nodes through RPC."
-		],
-		"tool": "Golang, TOML, RPC (Remote Procedure Call)",
-		"image": "https://camo.githubusercontent.com/98ed65187a84ecf897273d9fa18118ce45845057/68747470733a2f2f7261772e6769746875622e636f6d2f676f6c616e672d73616d706c65732f676f706865722d766563746f722f6d61737465722f676f706865722e706e67",
-		"visible": true
-	}, {
+	},{
 		"header": "TCP / UDP Socket Programming Web Server and Client",
 		"descriptions": ["Created multi-threading for each connection for TCP or each message for UDP",
 			 "Allowed inter-process communication through technology such as Pipes, Message queues, Shared Memory"],
@@ -177,7 +169,7 @@
 		"tool": "Python, Encrypted Key Exchange, Authentication",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
 		"visible": true
-	},  {
+	},{
 		"header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
 		"descriptions": ["An API service for allowing for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
 			"Implemented and Designed the routine to take calls and commands nodes through RPC."
