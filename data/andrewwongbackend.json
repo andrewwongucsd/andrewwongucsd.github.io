@@ -152,8 +152,7 @@
 		"visible": true
 	}, {
 		"header": "Fault-tolerant Distribution and Persistence of Objects Using Replication, Webhook Scheduler",
-		"descriptions": ["Allowed for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion
-",
+		"descriptions": ["Allowed for a future event to be triggered, or repeatedly triggered on a regular schedule until deletion",
 			"Implemented and Designed the routine to take calls and commands nodes through RPC."
 		],
 		"tool": "Golang, TOML, RPC (Remote Procedure Call)",
@@ -161,8 +160,7 @@
 		"visible": true
 	}, {
 		"header": "TCP / UDP Socket Programming Web Server and Client",
-		"descriptions": ["Created multi-threading for each connection for TCP or each message for UDP
-", "Allowed inter-process communication through technology such as Pipes, Message queues, Shared Memory"],
+		"descriptions": ["Created multi-threading for each connection for TCP or each message for UDP", "Allowed inter-process communication through technology such as Pipes, Message queues, Shared Memory"],
 		"tool": "Java, TCP/IP, Binding, IRC (Interprocess Communciation)",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
 		"visible": false
