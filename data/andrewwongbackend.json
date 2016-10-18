@@ -171,7 +171,7 @@
 		"descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
 		"tool": "Java(Android), NodeJS, HTML, JavaScript, bootstrap",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": false
+		"visible": true
 	}, {
 		"header": "Inventory Tracking System",
 		"descriptions": ["A Google App Engine based app to maintain and monitor amount of inventory and sales",
