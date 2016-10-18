@@ -105,7 +105,7 @@
 		"image": "svg/linkedin.svg"
 	}, {
 		"image": "svg/email.svg",
-		"info": "andrewwong@alumni.ucsd.edu"
+		"info": "andrew.k.wong@sjsu.edu"
 	}, {
 		"image": "svg/phone.svg",
 		"info": "+1 415 787 2881"
@@ -152,7 +152,7 @@
 		],
 		"tool": "Java, Netty.io, Consistent Hash",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
-		"visible": true
+		"visible": false
 	},{
 		"header": "Firewall and Load Balancer on Floodlight + Mininet",
 		"descriptions": ["Developing a firewall/Load Balancer application that runs over an OpenFlow-based SDN controller",

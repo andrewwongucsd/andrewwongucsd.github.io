@@ -125,7 +125,7 @@
 		],
 		"tool": "Java, Netty.io, Consistent Hash",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
-		"visible": true
+		"visible": false
 	},{
 		"header": "Firewall and Load Balancer on Floodlight + Mininet",
 		"descriptions": ["Developing a firewall/Load Balancer application that runs over an OpenFlow-based SDN controller",
