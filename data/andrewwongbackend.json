@@ -117,7 +117,7 @@
 		],
 		"tool": "C++, AVL Tree",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
-		"visible": true
+		"visible": false
 	},{
 		"header": "Asynchronous Video Streaming System via Netty.io",
 		"descriptions": ["Designing a ring topology for Consistent Hash that minimize overhead of scaling out/in",
@@ -129,7 +129,9 @@
 	},{
 		"header": "Firewall and Load Balancer on Floodlight + Mininet",
 		"descriptions": ["Developing a firewall/Load Balancer application that runs over an OpenFlow-based SDN controller",
-			"Creating SDN network topology by using VirtualBox and Mininet."
+			"Constructed network topology by using Mininet.",
+			"Assigned Responsibility to Virtual IP (Web Server) to each Virtual Machine through its Dynamic IP.",
+			"Tested and Generated a stream of request to the Web Server"
 		],
 		"tool": "Java, Floodlight, Mininet, Firewall, Load Balancer, Software-Defined Network (SDN)",
 		"image": "http://www.projectfloodlight.org/wp-content/uploads/2013/03/project_floodlight.png",
@@ -163,7 +165,7 @@
 		"descriptions": ["Created multi-threading for each connection for TCP or each message for UDP", "Allowed inter-process communication through technology such as Pipes, Message queues, Shared Memory"],
 		"tool": "Java, TCP/IP, Binding, IRC (Interprocess Communciation)",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": false
+		"visible": true
 	}, {
 		"header": "Automatic Class Attendance System",
 		"descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
@@ -183,7 +185,7 @@
 		"descriptions": ["A Google Places API based app to collect waiting time in a place."],
 		"tool": "Java, Android, Google Places API, Google datastore",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-		"visible": false
+		"visible": true
 	}],
 	"internships": [{
 		"company": "Accenture",
