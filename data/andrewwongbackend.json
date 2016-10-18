@@ -95,7 +95,7 @@
 		"major": "M.S. in Software Engineering",
 		"date": "Dec 2017",
 		"grade": "3.3",
-		"concentration": "Networking Software (SDN)",
+		"concentration": "Networking / Distributed Software",
 		"visible": true
 	}],
 	"connection": [{
@@ -165,7 +165,7 @@
 		"descriptions": ["Created multi-threading for each connection for TCP or each message for UDP", "Allowed inter-process communication through technology such as Pipes, Message queues, Shared Memory"],
 		"tool": "Java, TCP/IP, Binding, IRC (Interprocess Communciation)",
 		"image": "http://xahlee.info/UnixResource_dir/gki/Java_logo_new.svg",
-		"visible": true
+		"visible": false
 	}, {
 		"header": "Automatic Class Attendance System",
 		"descriptions": ["A RESTful API on Raspberry Pi 3 with Bluetooth Low Energy (BLE) interaction from Android Device."],
