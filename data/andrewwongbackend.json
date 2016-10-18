@@ -185,7 +185,7 @@
 		"descriptions": ["A Google Places API based app to collect waiting time in a place."],
 		"tool": "Java, Android, Google Places API, Google datastore",
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
-		"visible": true
+		"visible": false
 	}],
 	"internships": [{
 		"company": "Accenture",
