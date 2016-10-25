@@ -185,16 +185,7 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png",
 		"visible": true
 	}],
-	"internships": [{
-		"company": "Accenture",
-		"position": "Associate Software Engineer (Internship)",
-		"duration": "April 2015 - October 2015",
-		"image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Accenture_Logo.svg",
-		"place": "San Jose, CA",
-		"descriptions": ["Developed two front-end prototypes based on W2UI and AngularJS."],
-		"technology": "HTML, Javascript (JQuery, AngularJS, W2UI), CSS",
-		"visible": true
-	}, {
+	"internships": [ {
 		"company": "HSBC (Hang Seng Bank)",
 		"position": "Software Engineer ",
 		"duration": "May 2013 – May 2015",
