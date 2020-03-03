@@ -1,6 +1,7 @@
 <html>
   <meta charset="utf-8"/>
-  <script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- <script>
     window.fbAsyncInit = function() {
       FB.init({
         appId      : '182489696499776',
@@ -17,7 +18,7 @@
        js.src = "https://connect.facebook.net/en_US/sdk.js";
        fjs.parentNode.insertBefore(js, fjs);
      }(document, 'script', 'facebook-jssdk'));
-  </script>
+  </script> -->
   <body><h1>It works!5646546</h1>
     <div id="clickLogin">
       <button onclick="myFunction()">Try it</button>
@@ -49,6 +50,59 @@
           }
       }, 1000);
     };
+  function getQueryStringParameters(url){
+      var urlParams={}, match, additional = /\+/g, // Regex for replacing additional symbol with a space
+      search = /([^&=]+)=?([^&]*)/g,
+      decode = function (s)
+          { return decodeURIComponent(s.replace(additional, " ")); }, query;
+          if (url){
+            if(url.split("?").length>0){
+              query = url.split("?")[1];
+            }
+          }else{
+            url = window.location.href;
+            query = window.location.search.substring(1);
+          }
+          while (match = search.exec(query)){
+           urlParams[decode(match[1])] = decode(match[2]);
+          }
+          return urlParams;
+  }
+
+  function getAuthorizationCode(code){
+  //   curl -X POST \
+  // https://api.instagram.com/oauth/access_token \
+  // -F client_id=684477648739411 \
+  // -F client_secret=eb8c7... \
+  // -F grant_type=authorization_code \
+  // -F redirect_uri=https://socialsizzle.herokuapp.com/auth/ \
+  // -F code=AQDp3TtBQQ...
+    var url = "https://api.instagram.com/oauth/access_token";
+    var payload = {
+      client_id: "2352475988187966",
+      client_secret: "96bee0c7579bb2e8776c2572f8e18e1a",
+      grant_type: "authorization_code",
+      redirect_uri: "https://andrewwongucsd.github.io/",
+      code: code
+    };
+    $.post(url, payload, callback);
+  }
+
+  function postGettingAuthorizationCode(data, status){
+    console.log(data);
+    console.log(status);
+    console.log("should save the code somewhere in the browser");
+
+  }
+
+      (function(){
+        var code = getQueryStringParameters()["code"];
+        console.log(code);
+        if(code != undefined){
+          var authorizationCode = getAuthorizationCode(code);
+        }
+
+      })();
     // (function(){
     //   oauthpopup({
     //     path: "https://api.instagram.com/oauth/authorize?client_id=182489696499776&redirect_uri=http://localhost&scope=user_profile,user_media&response_type=code",
