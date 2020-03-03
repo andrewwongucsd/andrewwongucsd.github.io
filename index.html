@@ -45,7 +45,7 @@
 
       that._oauthWindow = window.open(options.path, options.windowName, options.windowOptions);
       that._oauthInterval = window.setInterval(function(){
-          if (that._oauthWindow != undefined && that._oauthWindow.closed) {
+          if (that._oauthWindow != undefined) {
               window.clearInterval(that._oauthInterval);
               options.callback(that);
           }else{
