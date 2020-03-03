@@ -85,7 +85,7 @@
       redirect_uri: "https://andrewwongucsd.github.io/",
       code: code
     };
-    $.post(url, payload, callback);
+    $.post(url, payload, postGettingAuthorizationCode);
   }
 
   function postGettingAuthorizationCode(data, status){
@@ -99,8 +99,8 @@
         var code = getQueryStringParameters()["code"];
         console.log(code);
         if(code != undefined){
-          var authorizationCode = getAuthorizationCode(code, postGettingAuthorizationCode);
-          
+          var authorizationCode = getAuthorizationCode(code);
+
         }
 
       })();
