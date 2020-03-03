@@ -28,17 +28,13 @@
   var myFunction = function(){
     oauthpopup({
       path: "https://api.instagram.com/oauth/authorize?client_id=2352475988187966&redirect_uri=https://andrewwongucsd.github.io/&scope=user_profile,user_media&response_type=code",
-      callback: function(window){
+      callback: function(newWindowURL){
           var windowInfo = window;
           console.log('window is going to close.');
-          console.log(window);
-          console.log(window.location.href);
-          console.log(window.location.host);
-          console.log(window.location.hostname);
           // window.setInterval(function(){
           //
           // });
-          var code = getQueryStringParameters()["code"];
+          var code = getQueryStringParameters(newWindowURL)["code"];
           console.log(code);
           if(code != undefined){
             var authorizationCode = getAuthorizationCode(code);
@@ -46,6 +42,7 @@
           }else{
             console.log("no code");
           }
+          console.log("that window should be closed.");
           // window._oauthWindow.close();
       }
   })}
@@ -58,10 +55,9 @@
       that._oauthWindow = window.open(options.path, options.windowName, options.windowOptions);
       that._oauthInterval = window.setInterval(function(){
           // if (that._oauthWindow != undefined && that._oauthWindow.closed) {
-          if (that._oauthWindow != undefined && that._originPath != that.location.href) {
-              console.log(that.location);
+          if (that._oauthWindow != undefined && that._originPath != that._oauthWindow.location.href) {
               window.clearInterval(that._oauthInterval);
-              options.callback(that);
+              options.callback(that._oauthWindow.location.href);
           }else{
             console.log("failed to close pop up window");
           }
