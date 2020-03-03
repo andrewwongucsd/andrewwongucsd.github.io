@@ -59,7 +59,7 @@
       that._oauthInterval = window.setInterval(function(){
           // if (that._oauthWindow != undefined && that._oauthWindow.closed) {
           if (that._oauthWindow != undefined && that._originPath != that.location.href) {
-              console.log(that.location.href);
+              console.log(that.location);
               window.clearInterval(that._oauthInterval);
               options.callback(that);
           }else{
