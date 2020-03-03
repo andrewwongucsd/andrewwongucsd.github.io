@@ -35,12 +35,12 @@
           // });
           var code = getQueryStringParameters(newWindowURL)["code"];
           console.log(code);
-          var interval = undefined;
           if(code != undefined){
             getAuthorizationCode(code);
-            interval = window.setInterval(function(){
+            window._authorizationCodeinterval = window.setInterval(function(){
               if(window._isAuthorizationCodeFound != undefined){
                 console.log("The oauthpopup is now closed.");
+                window.clearInterval(window._authorizationCodeinterval);
                 window._oauthWindow.close();
               }else{
                 console.log("The authorization code is not there yet.");
@@ -105,10 +105,13 @@
       redirect_uri: "https://andrewwongucsd.github.io/",
       code: code
     };
+    console.log(payload);
     $.post(url, payload, postGettingAuthorizationCode);
   }
 
   function postGettingAuthorizationCode(data, status){
+    console.log(data);
+    console.log(status);
     if(status == "success"){
       localStorage.setItem("access_token", data["access_token"]);
       localStorage.setItem("user_id", data["user_id"]);
