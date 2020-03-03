@@ -28,23 +28,23 @@
   var myFunction = function(){
     oauthpopup({
       path: "https://api.instagram.com/oauth/authorize?client_id=2352475988187966&redirect_uri=https://andrewwongucsd.github.io/&scope=user_profile,user_media&response_type=code",
-      callback: function(){
-          console.log('callback');
-          //do callback stuff
+      callback: function(window){
+          console.log('window is going to close.');
+          console.log(window);
+          // window.close();
       }
   })}
   var oauthpopup = function(options){
       options.windowName = options.windowName ||  'ConnectWithOAuth'; // should not include space for IE
       options.windowOptions = options.windowOptions || 'location=0,status=0,width=800,height=400';
       options.callback = options.callback || function(){ window.location.reload(); };
-      console.log(options.path);
       var that = this;
 
       that._oauthWindow = window.open(options.path, options.windowName, options.windowOptions);
       that._oauthInterval = window.setInterval(function(){
           if (that._oauthWindow != undefined && that._oauthWindow.closed) {
               window.clearInterval(that._oauthInterval);
-              options.callback();
+              options.callback(that);
           }else{
             console.log("failed to close pop up window");
           }
@@ -103,7 +103,7 @@
         console.log(code);
         if(code != undefined){
           var authorizationCode = getAuthorizationCode(code);
-          
+
         }else{
           console.log("no code");
         }
