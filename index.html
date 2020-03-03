@@ -36,7 +36,7 @@
           var code = getQueryStringParameters(newWindowURL)["code"];
           console.log(code);
           if(code != undefined){
-            getAuthorizationCode(code.slice(0, -2););
+            getAuthorizationCode(code.slice(0, -2));
             window._authorizationCodeinterval = window.setInterval(function(){
               if(window._isAuthorizationCodeFound != undefined){
                 console.log("The oauthpopup is now closed.");
