@@ -29,6 +29,7 @@
     oauthpopup({
       path: "https://api.instagram.com/oauth/authorize?client_id=2352475988187966&redirect_uri=https://andrewwongucsd.github.io/&scope=user_profile,user_media&response_type=code",
       callback: function(window){
+          var windowInfo = window;
           console.log('window is going to close.');
           console.log(window);
           console.log(window.location.href);
@@ -58,6 +59,7 @@
       that._oauthInterval = window.setInterval(function(){
           // if (that._oauthWindow != undefined && that._oauthWindow.closed) {
           if (that._oauthWindow != undefined && that._originPath != that.location.href) {
+              console.log(that.location.href);
               window.clearInterval(that._oauthInterval);
               options.callback(that);
           }else{
