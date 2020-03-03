@@ -51,11 +51,11 @@
       options.windowOptions = options.windowOptions || 'location=0,status=0,width=800,height=400';
       options.callback = options.callback || function(){ window.location.reload(); };
       var that = this;
-      that._originPath = options.path;
       that._oauthWindow = window.open(options.path, options.windowName, options.windowOptions);
+      that._originHostName= that._oauthWindow.location.hostname;
       that._oauthInterval = window.setInterval(function(){
           // if (that._oauthWindow != undefined && that._oauthWindow.closed) {
-          if (that._oauthWindow != undefined && that._originPath != that._oauthWindow.location.href) {
+          if (that._oauthWindow != undefined && that._originHostName != that._oauthWindow.location.hostname) {
               window.clearInterval(that._oauthInterval);
               options.callback(that._oauthWindow.location.href);
           }else{
