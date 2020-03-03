@@ -99,7 +99,8 @@
         var code = getQueryStringParameters()["code"];
         console.log(code);
         if(code != undefined){
-          var authorizationCode = getAuthorizationCode(code);
+          var authorizationCode = getAuthorizationCode(code, postGettingAuthorizationCode);
+          
         }
 
       })();
