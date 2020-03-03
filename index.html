@@ -34,6 +34,14 @@
           console.log(window.location.href);
           console.log(window.location.host);
           console.log(window.location.hostname);
+          var code = getQueryStringParameters()["code"];
+          console.log(code);
+          if(code != undefined){
+            var authorizationCode = getAuthorizationCode(code);
+
+          }else{
+            console.log("no code");
+          }
           window._oauthWindow.close();
       }
   })}
@@ -42,10 +50,11 @@
       options.windowOptions = options.windowOptions || 'location=0,status=0,width=800,height=400';
       options.callback = options.callback || function(){ window.location.reload(); };
       var that = this;
-
+      that._originPath = options.path;
       that._oauthWindow = window.open(options.path, options.windowName, options.windowOptions);
       that._oauthInterval = window.setInterval(function(){
-          if (that._oauthWindow != undefined) {
+          // if (that._oauthWindow != undefined && that._oauthWindow.closed) {
+          if (that._oauthWindow != undefined && that._originPath != that.location.href) {
               window.clearInterval(that._oauthInterval);
               options.callback(that);
           }else{
@@ -101,17 +110,10 @@
     }
   }
 
-      (function(){
-        var code = getQueryStringParameters()["code"];
-        console.log(code);
-        if(code != undefined){
-          var authorizationCode = getAuthorizationCode(code);
-
-        }else{
-          console.log("no code");
-        }
-
-      })();
+      // (function(){
+      //
+      //
+      // })();
     // (function(){
     //   oauthpopup({
     //     path: "https://api.instagram.com/oauth/authorize?client_id=182489696499776&redirect_uri=http://localhost&scope=user_profile,user_media&response_type=code",
