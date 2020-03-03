@@ -1,0 +1,47 @@
+<html lang="en" ng-app="resumeApp">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+  <link rel="stylesheet" href="app/app.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+  <script type="text/javascript">
+  function s(element) {
+    var x = document.getElementsByClassName("radio");
+    for(var i = 0; i < x.length; i++){
+      x[i].classList.remove('md-raised');
+      x[i].classList.add('inactive');
+    }
+    element.classList.add('md-raised');
+    element.classList.remove('inactive');
+  }
+  </script>
+</head>
+  <div ng-view></div>
+
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+
+  <!-- Your application bootstrap  -->
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/item-list/item-list.module.js"></script>
+  <script src="app/item-list/item-list.component.js"></script>
+  <script src="app/item-list-frontend/item-list-frontend.module.js"></script>
+  <script src="app/item-list-frontend/item-list-frontend.component.js"></script>
+  <script src="app/item-list-backend/item-list-backend.module.js"></script>
+  <script src="app/item-list-backend/item-list-backend.component.js"></script>
+  <script src="app/item-list-data/item-list-data.module.js"></script>
+  <script src="app/item-list-data/item-list-data.component.js"></script>
+  <script src="app/redirect/redirect.module.js"></script>
+  <script src="app/redirect/redirect.component.js"></script>
+  <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+
+</body>
+</html>

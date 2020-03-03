@@ -1,47 +1,87 @@
-<html lang="en" ng-app="resumeApp">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Angular Material style sheet -->
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
-  <link rel="stylesheet" href="app/app.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
-  <script type="text/javascript">
-  function s(element) {
-    var x = document.getElementsByClassName("radio");
-    for(var i = 0; i < x.length; i++){
-      x[i].classList.remove('md-raised');
-      x[i].classList.add('inactive');
-    }
-    element.classList.add('md-raised');
-    element.classList.remove('inactive');
-  }
+<html>
+  <meta charset="utf-8"/>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId      : '182489696499776',
+        xfbml      : true,
+        version    : 'v6.0'
+      });
+      FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "https://connect.facebook.net/en_US/sdk.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
   </script>
-</head>
-  <div ng-view></div>
+  <body><h1>It works!5646546</h1>
+    <div id="clickLogin">
+      <button onclick="myFunction()">Try it</button>
+    </div>
+  </body>
+  <script>
+  var myFunction = function(){
+    oauthpopup({
+      path: "https://api.instagram.com/oauth/authorize?client_id=193337315326292&redirect_uri=localhost&scope=user_profile,user_media&response_type=code",
+      callback: function(){
+          console.log('callback');
+          //do callback stuff
+      }
+  })}
+  var oauthpopup = function(options){
+      options.windowName = options.windowName ||  'ConnectWithOAuth'; // should not include space for IE
+      options.windowOptions = options.windowOptions || 'location=0,status=0,width=800,height=400';
+      options.callback = options.callback || function(){ window.location.reload(); };
+      console.log(options.path);
+      var that = this;
 
-  <!-- Angular Material requires Angular.js Libraries -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
-
-  <!-- Angular Material Library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
-
-  <!-- Your application bootstrap  -->
-  <script src="app/app.module.js"></script>
-  <script src="app/app.config.js"></script>
-  <script src="app/item-list/item-list.module.js"></script>
-  <script src="app/item-list/item-list.component.js"></script>
-  <script src="app/item-list-frontend/item-list-frontend.module.js"></script>
-  <script src="app/item-list-frontend/item-list-frontend.component.js"></script>
-  <script src="app/item-list-backend/item-list-backend.module.js"></script>
-  <script src="app/item-list-backend/item-list-backend.component.js"></script>
-  <script src="app/item-list-data/item-list-data.module.js"></script>
-  <script src="app/item-list-data/item-list-data.component.js"></script>
-  <script src="app/redirect/redirect.module.js"></script>
-  <script src="app/redirect/redirect.component.js"></script>
-  <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
-
-</body>
+      that._oauthWindow = window.open(options.path, options.windowName, options.windowOptions);
+      that._oauthInterval = window.setInterval(function(){
+          if (that._oauthWindow != undefined && that._oauthWindow.closed) {
+              window.clearInterval(that._oauthInterval);
+              options.callback();
+          }else{
+            console.log("failed to close pop up window");
+          }
+      }, 1000);
+    };
+    // (function(){
+    //   oauthpopup({
+    //     path: "https://api.instagram.com/oauth/authorize?client_id=182489696499776&redirect_uri=http://localhost&scope=user_profile,user_media&response_type=code",
+    //     callback: function(){
+    //         console.log('callback');
+    //         //do callback stuff
+    //     }
+    // });
+      // var loginbutton = document.getElementById("clickLogin");
+      // loginbutton.style.cursor = 'pointer';
+      // loginbutton.onclick = function(){
+      //   var xhttp = new XMLHttpRequest();
+      //   xhttp.onreadystatechange = function() {
+      //     if (this.readyState == 4 && this.status == 200) {
+      //       console.log(this.responseText);
+      //      document.getElementById("clickLogin").innerHTML = this.responseText;
+      //     }
+      //   };
+      //   var url = "https://api.instagram.com/oauth/authorize?client_id=182489696499776&redirect_uri=http://localhost&scope=user_profile,user_media&response_type=code";
+      //   xhttp.open("GET", url, true);
+      //   xhttp.send();
+      // }
+      // loginbutton.click = function(){
+      //   var xhttp = new XMLHttpRequest();
+      //   xhttp.onreadystatechange = function() {
+      //     if (this.readyState == 4 && this.status == 200) {
+      //      document.getElementById("clickLogin").innerHTML = this.responseText;
+      //     }
+      //   };
+      //   var url = "https://api.instagram.com/oauth/authorize?client_id=182489696499776&redirect_uri=http://localhost&scope=user_profile,user_media&response_type=code";
+      //   xhttp.open("GET", url, true);
+      //   xhttp.send();
+      // }
+    // }());
+  </script>
 </html>
