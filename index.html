@@ -60,8 +60,8 @@
               options.callback(that._oauthWindow.location.href);
           }
       }, 1000);
-    };
 
+    };
   function getUserNode() {
     var userId = localStorage.getItem("user_id");
     var accessToken = localStorage.getItem("access_token");
@@ -70,6 +70,7 @@
       console.log(data);
       console.log(status);
       $("#content").innerHTML(data);
+      console.log("getUserNode() done.");
     });
   }
 
