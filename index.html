@@ -36,13 +36,13 @@
             window._authorizationCodeinterval = window.setInterval(function(){
               if(window._isAuthorizationCodeFound != undefined){
                 window.clearInterval(window._authorizationCodeinterval);
-                $("#content").innerHTML("");
+                $("#content").innerHTML = "";
                 getUserNode();
                 window._oauthWindow.close();
               }
             }, 1000);
           }else{
-            $("#content").innerHTML("PLEASE RETRY.");
+            $("#content").innerHTML = "PLEASE RETRY.";
           }
       }
   })};
@@ -69,7 +69,7 @@
     $.get(url, function(data, status){
       console.log(data);
       console.log(status);
-      $("#content").innerHTML(data);
+      $("#content").innerHTML = data;
       console.log("getUserNode() done.");
     });
   }
